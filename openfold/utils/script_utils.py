@@ -34,7 +34,10 @@ from pytorch_lightning.utilities.deepspeed import (
     convert_zero_checkpoint_to_fp32_state_dict
 )
 
-from .tensorrt_utils import instrument_with_trt_compile
+try:
+    from .tensorrt_utils import instrument_with_trt_compile
+except ModuleNotFoundError:
+    instrument_with_trt_compile = None
 from .precision_utils import wrap_for_precision
 
 logging.basicConfig()
@@ -69,10 +72,18 @@ def make_output_directory(output_dir, model_name, multiple_model_mode):
 
 def _accelerate(model, config):
     if config.trt.mode is not None:
+        if instrument_with_trt_compile is None:
+            raise ImportError(
+                "TensorRT requested but TensorRT is not installed."
+            )
         instrument_with_trt_compile(model, config)
-    if config.precision is not None and config.precision in ['bf16', 'fp16']:
+
+    if config.precision is not None and config.precision in ["bf16", "fp16"]:
         model.evoformer = wrap_for_precision(model.evoformer, config.precision)
-        model.extra_msa_stack = wrap_for_precision(model.extra_msa_stack, config.precision)
+        model.extra_msa_stack = wrap_for_precision(
+            model.extra_msa_stack,
+            config.precision,
+        )
 
 
 def load_models_from_command_line(config, model_device, openfold_checkpoint_path, jax_param_path, output_dir):
