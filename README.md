@@ -139,7 +139,8 @@ The use of MSA-subsampling can be specified with `--neff` and size-dependent nef
 An example command with a provided fasta directory, dms directory, and precomputed alignments for 1PWT are located within the directory named 'example'. Expected outputs of relaxed and unrelaxed DMS-Fold predictions and feature pickle file are also provided. To obtain reproducible predictions, specify a fixed random seed using
 
 ```bash
---data_random_seed```
+--data_random_seed
+```
 
 ## Network Weights
 The weights can be found on the [DMS-Fold model repository](https://huggingface.co/LindertLab/DMS-Fold2) on huggingface.co. Once downloaded, the weights should be added to DMS-Fold/openfold/resources/. The path to the weights can be specified with `--checkpoint_path'.
