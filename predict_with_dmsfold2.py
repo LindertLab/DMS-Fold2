@@ -302,7 +302,7 @@ def main(args):
             traceback.print_exc()
             sys.exit(1)
     seq_sort_fn = lambda target: sum([len(s) for s in target[1]])
-    sorted_targets = sorted(zip(tag_list, seq_list), key=seq_sort_fn)
+    sorted_targets = sorted(zip(tag_list, seq_list, dms_list), key=seq_sort_fn)
     feature_dicts = {}
 
     if is_multimer and args.openfold_checkpoint_path:
