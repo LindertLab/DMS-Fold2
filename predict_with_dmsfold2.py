@@ -285,7 +285,7 @@ def main(args):
         sm_dms = tag_list[i][1][0] + '_sm_dms.csv'
         dm_dms = tag_list[i][1][0] + '_dm_dms.csv'
         sm_dms_path = os.path.join(args.dms_dir, sm_dms)
-        dm_dms_path = os.path.join(args.dms_dms, dm_dms)
+        dm_dms_path = os.path.join(args.dms_dir, dm_dms)
         if not os.path.isfile(sm_dms_path):
             print(f"Missing SM DMS file at path: {sm_dms_path}")
             sys.exit(1)
