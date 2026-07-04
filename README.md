@@ -1,42 +1,110 @@
 # DMS-Fold2
 
-[![Static Badge](https://img.shields.io/badge/DMS--Fold-Weights-green)](https://huggingface.co/LindertLab/DMS-Fold/tree/main)       [![Static Badge](https://img.shields.io/badge/DMS--Fold-TrainingSet-green)](https://huggingface.co/datasets/LindertLab/dmsfold_training_set)      [![Static Badge](https://img.shields.io/badge/DMS--Fold-TestSets-yellow)](https://huggingface.co/datasets/LindertLab/megascale_casp14_cameo_sets)    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15793742.svg)](https://doi.org/10.5281/zenodo.15793742)
+[![Weights](https://img.shields.io/badge/DMS--Fold2-Weights-green)](https://huggingface.co/LindertLab/DMS-Fold2)
+[![Training Dataset](https://img.shields.io/badge/DMS--Fold2-Training--Dataset-green)](https://huggingface.co/datasets/LindertLab/DMS-Fold2-Training-Dataset)
+[![Benchmark Dataset](https://img.shields.io/badge/DMS--Fold2-Benchmark--Dataset-yellow)](https://huggingface.co/datasets/LindertLab/DMS-Fold2-Benchmark-Dataset)
 
+DMS-Fold2 is an extension of OpenFold that incorporates pairwise epistatic information from deep mutational scanning (DMS) experiments into protein structure prediction. The model integrates enrichment scores derived from single-mutant and double-mutant ΔΔG measurements into the pair representation through a learned embedding and introduces an auxiliary loss for predicting enrichment scores during training.
 
-DMS-Fold2 is a network which extracts burial information from deep mutational scanning data to enhance structure prediciton. It expands OpenFold with additional DMS-derived embeddings to the network's pair representation, informing about potential burial restraints.
-
-The network currently only supports mutation ΔΔGs, not necessarily any metric of mutational fitness.
+Currently, DMS-Fold2 supports thermodynamic stability (ΔΔG) measurements as input.
 
 ## Installation
 
-DMS-Fold2 is a modified version of OpenFold. See [OpenFold's Documentation](https://openfold.readthedocs.io/en/latest/) for instructions on installing openfold dependencies and conda requirements.
+DMS-Fold2 is built on OpenFold. Please see the [OpenFold documentation](https://openfold.readthedocs.io/en/latest/) for installation instructions and required sequence databases.
 
-DMS-Fold2 weights can be downloaded from {}. The path to the weights can be specified via '--openfold_checkpoint_path', which by default is not set.
+Pretrained DMS-Fold2 model weights are available on Hugging Face:
 
-## Formatting DMS Input CSV
+https://huggingface.co/LindertLab/DMS-Fold2
 
-Single mutant deep mutational scanning thermodynamic stabilities (ΔΔGs) should be given as a CSV. The first column should correspond to the residue sequence number, the second being the wildtype residue one-letter-code, the third is the mutated residue, and the fourth being the measured ΔΔG for the corresponding mutation.
-
-Sequence Number,WT-Residue,Mutated-Residue,ΔΔG
+Specify the checkpoint during inference using
 
 ```bash
-seq_n,wt_res,mut_res,ddG
-1,M,A,-0.227
-1,M,C,-0.109
-1,M,D,-0.518
-1,M,E,-0.053
-1,M,F,0.734
-```  
+--openfold_checkpoint_path path/to/dmsfold2_model_5_ptm.pt
+```
+
+## Formatting DMS Input
+
+DMS-Fold2 requires **two CSV files** for each protein:
+
+- a single-mutant ΔΔG file
+- a double-mutant ΔΔG file
+
+The filenames should share the FASTA basename:
+
+```
+protein.fasta
+protein_sm_dms.csv
+protein_dm_dms.csv
+```
+
+### Single-mutant CSV
+
+The CSV must contain the columns
+
+```
+mut_type,ddG
+```
+
+where `mut_type` is formatted as
+
+```
+A1G
+```
+
+meaning
+
+- wild-type residue **A**
+- residue position **1**
+- mutated residue **G**
+
+Example
+
+```text
+mut_type,ddG
+A1G,-0.42
+A1C,-0.13
+A1D,0.81
+...
+```
+
+### Double-mutant CSV
+
+The double-mutant CSV must also contain
+
+```
+mut_type,ddG
+```
+
+where `mut_type` is formatted as
+
+```
+A1G:C2A
+```
+
+representing the simultaneous mutations
+
+- A1G
+- C2A
+
+Example
+
+```text
+mut_type,ddG
+A1G:C2A,-0.64
+A1G:C2D,-0.11
+A1G:C2F,0.92
+...
+```
 
 ## Usage
 DMS-Fold requires a protein sequence FASTA file, CSV with dms data, and the databases used by OpenFold for MSA/template information. A directory containing fastas files, and a corresponding directory containing matching dms CSVs should be specified. CSVs should start with the same name as the fasta file, with addition of '_dms.csv'. 
  
 ```bash
-python3 predict_with_dmsfold.py \
+python3 predict_with_dmsfold2.py \
     $INPUT_FASTA_DIR \
     $INPUT_DMS_DIR \
     $TEMPLATE_MMCIF_DIR \    
-    --openfold_checkpoint_path openfold/resources/dmsfold_weights.pt \
+    --openfold_checkpoint_path openfold/resources/dmsfold_model_5_ptm.pt \
     --uniref90_database_path uniref90.fasta \
     --mgnify_database_path mgy_clusters_2018_12.fa \
     --pdb70_database_path pdb70/pdb70 \
@@ -46,32 +114,39 @@ python3 predict_with_dmsfold.py \
     --config_preset model_5_ptm
 ```
 #### Required Arguments:
-* `$INPUT_FASTA_DIR`: Directory of query fasta files, one sequence per file.
-* `$INPUT_DMS_DIR`: Directory of dms CSVs corresponding to fasta files in '$INPUT_FASTA_DIR'
-* `$TEMPLATE_MMCIF_DIR`: MMCIF files to use for template matching. This directory is required even though DMS-Fold peforms template-free inference.
-* `*_database_path`: Paths to sequence databases for sequence alignment.
-* `--model_device`: Specify to use a GPU if one is available.
-* `--config_preset`: Must specify model_5_ptm when using DMS-Fold.
+* `$INPUT_FASTA_DIR` — directory containing one FASTA file per target.
+
+* `$INPUT_DMS_DIR` — directory containing
+
+```
+<protein>_sm_dms.csv
+<protein>_dm_dms.csv
+```
+
+for every FASTA.
+
+* `$TEMPLATE_MMCIF_DIR` — directory containing template mmCIF files used by OpenFold.
+
+* `*_database_path` — OpenFold sequence databases.
+
+* `--openfold_checkpoint_path` — path to the pretrained DMS-Fold2 checkpoint.
+
+* `--config_preset model_5_ptm`
 
 The use of MSA-subsampling can be specified with `--neff` and size-dependent neff can be specified with `--neff_size_dependent`
 
 ## Example
-An example command with a provided fasta directory, dms directory, and precomputed alignments for 1PWT are located within the directory named 'example'. Expected outputs of relaxed and unrelaxed DMS-Fold predictions and feature pickle file are also provided. To enable deterministic predictions, a singular seed should be specified with '--seed.'
+An example command with a provided fasta directory, dms directory, and precomputed alignments for 1PWT are located within the directory named 'example'. Expected outputs of relaxed and unrelaxed DMS-Fold predictions and feature pickle file are also provided. To obtain reproducible predictions, specify a fixed random seed using
+
+```bash
+--data_random_seed
 
 ## Network Weights
-The weights can be found on the [DMS-Fold model repository](https://huggingface.co/LindertLab/DMS-Fold/tree/main) on huggingface.co. Once downloaded, the weights should be added to DMS-Fold/openfold/resources/. The path to the weights can be specified with `--checkpoint_path'.
+The weights can be found on the [DMS-Fold model repository](https://huggingface.co/LindertLab/DMS-Fold2) on huggingface.co. Once downloaded, the weights should be added to DMS-Fold/openfold/resources/. The path to the weights can be specified with `--checkpoint_path'.
 
 ## Citing this work
 If you use the code or data in this package, please cite:
 
 ```bibtex
-@Article{DMS-Fold,
-  author  = {Drake, Zachary and Day, Elijah and Toth, Paul and Lindert, Steffen},
-  journal = {Nature Communications},
-  title   = {Deep-learning structure elucidation from single-mutant deep mutational scanning},
-  year    = {2025},
-  volume  = {16},
-  number  = {6874},
-  doi     = {10.1038/s41467-025-62261-4}
-}
+@Article{}
 ```
