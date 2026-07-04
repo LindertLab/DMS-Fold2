@@ -143,7 +143,7 @@ An example command with a provided fasta directory, dms directory, and precomput
 ```
 
 ## Network Weights
-The weights can be found on the [DMS-Fold model repository](https://huggingface.co/LindertLab/DMS-Fold2) on huggingface.co. Once downloaded, the weights should be added to DMS-Fold/openfold/resources/. The path to the weights can be specified with `--checkpoint_path'.
+The weights can be found on the [DMS-Fold model repository](https://huggingface.co/LindertLab/DMS-Fold2) on huggingface.co. Once downloaded, the weights should be added to DMS-Fold/openfold/resources/. The path to the weights can be specified with `--openfold_checkpoint_path'.
 
 ## Citing this work
 If you use the code or data in this package, please cite:
