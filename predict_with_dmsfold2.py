@@ -281,7 +281,7 @@ def main(args):
 
         tag_list.append((tag, tags))
         seq_list.append(seqs)
-    for i in range(len(dms_list)):
+    for i in range(len(seq_list)):
         sm_dms = tag_list[i][1][0] + '_sm_dms.csv'
         dm_dms = tag_list[i][1][0] + '_dm_dms.csv'
         sm_dms_path = os.path.join(args.dms_dir, sm_dms)
