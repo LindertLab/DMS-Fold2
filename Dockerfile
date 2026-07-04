@@ -1,11 +1,11 @@
 FROM nvidia/cuda:12.1.1-cudnn8-devel-ubuntu22.04
 
 # metainformation
-LABEL org.opencontainers.image.version = "2.0.0"
-LABEL org.opencontainers.image.authors = "OpenFold Team"
-LABEL org.opencontainers.image.source = "https://github.com/aqlaboratory/openfold"
-LABEL org.opencontainers.image.licenses = "Apache License 2.0"
-LABEL org.opencontainers.image.base.name="docker.io/nvidia/cuda:12.4.1-devel-ubuntu22.04"
+LABEL org.opencontainers.image.title="DMS-Fold2"
+LABEL org.opencontainers.image.version="1.0.0"
+LABEL org.opencontainers.image.authors="Lindert Lab"
+LABEL org.opencontainers.image.source="https://github.com/LindertLab/DMS-Fold2"
+LABEL org.opencontainers.image.licenses="Apache-2.0"
 
 RUN apt-get update && apt-get install -y wget
 
@@ -21,18 +21,20 @@ RUN wget -P /tmp \
     && rm /tmp/Miniforge3-Linux-x86_64.sh
 ENV PATH /opt/conda/bin:$PATH
 
-COPY environment.yml /opt/openfold/environment.yml
+COPY environment.yml /opt/DMS-Fold2/environment.yml
 
 # installing into the base environment since the docker container wont do anything other than run openfold
-RUN mamba env update -n base --file /opt/openfold/environment.yml && mamba clean --all
+RUN mamba env update -n base --file /opt/DMS-Fold2/environment.yml && mamba clean --all
 RUN export LD_LIBRARY_PATH=${CONDA_PREFIX}/lib:${LD_LIBRARY_PATH}
 
-COPY openfold /opt/openfold/openfold
-COPY scripts /opt/openfold/scripts
-COPY run_pretrained_openfold.py /opt/openfold/run_pretrained_openfold.py
-COPY train_openfold.py /opt/openfold/train_openfold.py
-COPY setup.py /opt/openfold/setup.py
-RUN wget -q -P /opt/openfold/openfold/resources \
+COPY openfold /opt/DMS-Fold2/openfold
+COPY scripts /opt/DMS-Fold2/scripts
+COPY predict_with_dmsfold2.py /opt/DMS-Fold2/predict_with_dmsfold2.py
+COPY train_openfold.py /opt/DMS-Fold2/train_openfold.py
+COPY setup.py /opt/DMS-Fold2/setup.py
+RUN wget -q -P /opt/DMS-Fold2/openfold/resources \
     https://git.scicore.unibas.ch/schwede/openstructure/-/raw/7102c63615b64735c4941278d92b554ec94415f8/modules/mol/alg/src/stereo_chemical_props.txt
-WORKDIR /opt/openfold
+RUN wget -q -O /opt/DMS-Fold2/openfold/resources/dmsfold2_model_5_ptm.pt \
+    https://huggingface.co/LindertLab/DMS-Fold2/resolve/main/dmsfold2_model_5_ptm.pt
+WORKDIR /opt/DMS-Fold2
 RUN python3 setup.py install

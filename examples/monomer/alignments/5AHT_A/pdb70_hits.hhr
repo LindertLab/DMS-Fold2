@@ -1,0 +1,2223 @@
+Query         5AHT_A 
+Match_columns 43
+No_of_seqs    109 out of 10000
+Neff          3.23166
+Searched_HMMs 80799
+Date          Fri Sep  8 16:53:49 2023
+Command       /apps/alphafold/2.2.2/opt/bin/hhsearch -i /tmp/tmp6f9w8jak/query.a3m -o /tmp/tmp6f9w8jak/output.hhr -maxseq 1000000 -cpu 40 -d /fs/ess/pub_data/alphafold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XMC_A E3 ubiquitin-protein li  98.8 3.7E-12 4.5E-17   91.2   0.0   35    6-40    297-331 (722)
+  2 2YSF_A E3 ubiquitin-protein li  98.8 3.8E-12 4.7E-17   55.5   0.0   35    5-39      5-39  (40)
+  3 6JJX_B Protein KIBRA, Peptide   98.8 3.9E-12 4.9E-17   71.5   0.0   34    7-40     56-89  (134)
+  4 6JJZ_A Membrane-associated gua  98.8 4.2E-12 5.2E-17   66.7   0.0   35    7-41     60-94  (102)
+  5 5AHT_A E3 UBIQUITIN-PROTEIN LI  98.8 4.6E-12 5.7E-17   55.0   0.0   39    3-41      3-41  (43)
+  6 6JJZ_B Membrane-associated gua  98.8 5.6E-12 6.9E-17   66.3   0.0   35    7-41     60-94  (102)
+  7 2LTZ_A E3 ubiquitin-protein li  98.8 8.6E-12 1.1E-16   51.6   0.0   33    8-40      3-35  (37)
+  8 6JJX_B Protein KIBRA, Peptide   98.8 8.8E-12 1.1E-16   70.1   0.0   36    4-39      6-41  (134)
+  9 2YSG_A Syntaxin-binding protei  98.8 9.2E-12 1.1E-16   54.7   0.0   35    5-39      5-39  (40)
+ 10 6JJY_A Protein KIBRA, Peptide   98.8 1.2E-11 1.4E-16   69.4   0.0   34    7-40     56-89  (134)
+ 11 2YSE_A Membrane-associated gua  98.7 1.2E-11 1.5E-16   61.5   0.0   35    6-40     12-46  (60)
+ 12 2EZ5_W E3 ubiquitin-protein li  98.7 1.3E-11 1.6E-16   56.2   0.0   35    6-40      9-43  (46)
+ 13 3L4H_A E3 ubiquitin-protein li  98.7 1.3E-11 1.7E-16   73.4   0.0   36    6-41     71-106 (109)
+ 14 6JJY_A Protein KIBRA, Peptide   98.7 1.4E-11 1.7E-16   69.0   0.0   37    3-39      5-41  (134)
+ 15 2OP7_A NEDD4-like E3 ubiquitin  98.7 1.8E-11 2.2E-16   51.3   0.0   34    7-40      4-37  (39)
+ 16 1JMQ_A 65 KDA YES-ASSOCIATED P  98.7 1.9E-11 2.3E-16   55.9   0.0   35    6-40      7-41  (46)
+ 17 2ZAJ_A Membrane-associated gua  98.7 2.5E-11 3.1E-16   56.7   0.0   35    6-40     12-46  (49)
+ 18 2KXQ_A E3 ubiquitin-protein li  98.7 3.5E-11 4.3E-16   59.7   0.0   33    6-38      8-40  (90)
+ 19 5XMC_A E3 ubiquitin-protein li  98.7 3.7E-11 4.6E-16   86.2   0.0   31    7-37    146-176 (722)
+ 20 2LAJ_A E3 ubiquitin-protein li  98.6 4.4E-11 5.5E-16   53.2   0.0   37    5-41      5-41  (44)
+ 21 2L5F_A Pre-mRNA-processing fac  98.6 5.6E-11 6.9E-16   62.0   0.0   33    8-40     53-85  (92)
+ 22 2DJY_A Smad ubiquitination reg  98.6 6.4E-11 7.9E-16   51.2   0.0   35    6-40      6-40  (42)
+ 23 2JMF_A E3 ubiquitin-protein li  98.6 7.1E-11 8.8E-16   56.1   0.0   35    6-40     17-51  (53)
+ 24 5DZD_A E3 ubiquitin-protein li  98.6 7.3E-11   9E-16   53.3   0.0   35    6-40     11-45  (47)
+ 25 5DZD_B E3 ubiquitin-protein li  98.6 7.3E-11   9E-16   53.3   0.0   35    6-40     11-45  (47)
+ 26 2DWV_B Salvador homolog 1 prot  98.6 7.7E-11 9.5E-16   55.1   0.0   35    7-41     13-47  (49)
+ 27 6RSS_A NEDD4-like E3 ubiquitin  98.6 8.3E-11   1E-15   68.5   0.0   35    6-40     73-107 (109)
+ 28 2LAW_A Yorkie homolog, Mothers  98.6 9.6E-11 1.2E-15   49.3   0.0   33    6-38      5-37  (38)
+ 29 2LAZ_A E3 ubiquitin-protein li  98.6   1E-10 1.2E-15   46.0   0.0   31    8-38      2-32  (33)
+ 30 3LE4_A Microprocessor complex   98.6 1.1E-10 1.3E-15   69.7   0.0   34    6-39     27-60  (79)
+ 31 4REX_A Yorkie homolog; WW doma  98.6 1.1E-10 1.4E-15   54.1   0.0   35    6-40     11-45  (49)
+ 32 6JK0_A Transcriptional coactiv  98.5 1.2E-10 1.5E-15   66.2   0.0   34    7-40     81-114 (132)
+ 33 2LTV_A Yorkie homolog, Mothers  98.5 1.4E-10 1.8E-15   47.4   0.0   31    8-38      3-33  (36)
+ 34 2HO2_A Amyloid beta A4 protein  98.5 1.5E-10 1.9E-15   50.3   0.0   33    7-40      3-35  (38)
+ 35 2OEI_A Amyloid beta A4 protein  98.5 1.5E-10 1.9E-15   50.3   0.0   33    7-40      3-35  (38)
+ 36 1WMV_A WW domain containing ox  98.5 1.8E-10 2.2E-15   55.5   0.0   35    6-40     10-44  (54)
+ 37 2JXW_A WW domain-binding prote  98.5 1.9E-10 2.3E-15   55.9   0.0   31    8-38     44-74  (75)
+ 38 6JK1_A Dendrin,Transcriptional  98.5   2E-10 2.5E-15   62.4   0.0   30    8-37     86-115 (116)
+ 39 2N8T_A rNedd4_WW2, Cx43CT_pept  98.5   2E-10 2.5E-15   48.3   0.0   32    7-38      5-36  (39)
+ 40 6JK0_A Transcriptional coactiv  98.5 2.6E-10 3.2E-15   64.9   0.0   34    6-39     21-54  (132)
+ 41 5TJ8_A NEDD4-like E3 ubiquitin  98.5 2.6E-10 3.3E-15   75.4   0.0   31    9-39      1-31  (447)
+ 42 2LTW_A Yorkie homolog, Smad7 d  98.5 3.2E-10   4E-15   46.5   0.0   32    7-38      3-34  (36)
+ 43 5YDX_A WW domain with PPxY mot  98.5 3.2E-10   4E-15   56.6   0.0   34    6-39      8-41  (59)
+ 44 2DMV_A Itchy homolog E3 ubiqui  98.4 3.5E-10 4.4E-15   49.2   0.0   36    5-40      5-40  (43)
+ 45 4N7F_B E3 ubiquitin-protein li  98.4 3.7E-10 4.6E-15   47.4   0.0   32    7-38      5-36  (38)
+ 46 5TJ7_A NEDD4-like E3 ubiquitin  98.4 4.1E-10 5.1E-15   74.5   0.0   31    9-39      1-31  (447)
+ 47 5TJ7_B NEDD4-like E3 ubiquitin  98.4 4.1E-10 5.1E-15   74.5   0.0   31    9-39      1-31  (447)
+ 48 2JV4_A Peptidyl-prolyl cis/tra  98.4 4.1E-10 5.1E-15   53.5   0.0   38    2-39      2-40  (54)
+ 49 2NC6_A Pin1 WW Domain; enhance  98.4   5E-10 6.2E-15   43.6   0.0   30    8-37      2-31  (33)
+ 50 6JK1_B Dendrin,Transcriptional  98.4   6E-10 7.5E-15   60.6   0.0   30    8-37     86-115 (116)
+ 51 1I5H_W RNEDD4 WWIII DOMAIN, RE  98.4 6.5E-10   8E-15   51.1   0.0   35    6-40     10-44  (50)
+ 52 5YDY_A WW2 domain and PPxY mot  98.4 6.9E-10 8.6E-15   54.0   0.0   33    7-39      3-35  (54)
+ 53 2KQ0_A E3 ubiquitin-protein li  98.4 7.1E-10 8.8E-15   50.8   0.0   35    7-41     12-46  (49)
+ 54 2YSH_A Growth-arrest-specific   98.3 9.1E-10 1.1E-14   46.8   0.0   34    5-38      5-38  (40)
+ 55 6J1Y_B NEDD4-like E3 ubiquitin  98.3 9.1E-10 1.1E-14   74.8   0.0   32    8-39     95-126 (519)
+ 56 1E0M_A WWPROTOTYPE; SH3 PROTOT  98.3 9.7E-10 1.2E-14   44.7   0.0   32    7-38      3-34  (37)
+ 57 2YSD_A Membrane-associated gua  98.3   1E-09 1.2E-14   53.2   0.0   35    6-40     13-47  (57)
+ 58 2M8J_A Peptidyl-prolyl cis-tra  98.3 1.1E-09 1.3E-14   47.6   0.0   33    6-38      9-42  (43)
+ 59 1O6W_A PRE-MRNA PROCESSING PRO  98.3 1.1E-09 1.4E-14   52.8   0.0   33    8-40     41-73  (75)
+ 60 6RSS_A NEDD4-like E3 ubiquitin  98.3 1.1E-09 1.4E-14   63.8   0.0   31    9-39     21-51  (109)
+ 61 1WR7_A Nedd4-2; all-beta, LIGA  98.3 1.2E-09 1.5E-14   47.0   0.0   32    7-38      8-39  (41)
+ 62 5VTJ_A Peptidyl-prolyl cis-tra  98.3 1.2E-09 1.5E-14   42.8   0.0   30    8-37      2-32  (34)
+ 63 5VTK_A Peptidyl-prolyl cis-tra  98.3 1.3E-09 1.7E-14   42.7   0.0   30    8-37      2-32  (34)
+ 64 2YSB_A Salvador homolog 1 prot  98.3 1.4E-09 1.8E-14   49.4   0.0   33    7-39     11-43  (49)
+ 65 6JJZ_B Membrane-associated gua  98.3 1.5E-09 1.9E-14   57.0   0.0   33    6-38     13-45  (102)
+ 66 3OLM_A E3 ubiquitin-protein li  98.3 1.8E-09 2.2E-14   71.4   0.0   35    5-39      6-40  (429)
+ 67 5CQ2_A E3 ubiquitin-protein li  98.3 1.9E-09 2.4E-14   53.7   0.0   33    8-40     49-81  (90)
+ 68 6JJZ_A Membrane-associated gua  98.2 2.2E-09 2.7E-14   56.4   0.0   33    6-38     13-45  (102)
+ 69 1YIU_A Itchy E3 ubiquitin prot  98.2 2.7E-09 3.4E-14   43.5   0.0   31    7-37      5-35  (37)
+ 70 2YSI_A Transcription elongatio  98.2 2.8E-09 3.5E-14   46.1   0.0   32    7-38      7-38  (40)
+ 71 1I8H_B MICROTUBULE-ASSOCIATED   98.2 3.3E-09   4E-14   43.1   0.0   33    8-40      2-35  (39)
+ 72 2YSC_A Amyloid beta A4 precurs  98.2 3.4E-09 4.2E-14   45.4   0.0   32    6-38      7-38  (39)
+ 73 1YWI_A Formin-binding protein   98.2 3.4E-09 4.2E-14   45.8   0.0   31    7-37      9-39  (41)
+ 74 2L4J_A Yes Associated Protein   98.2 4.5E-09 5.5E-14   46.4   0.0   33    7-39     11-43  (46)
+ 75 2N4S_A Transcription elongatio  98.1 5.4E-09 6.7E-14   43.8   0.0   31    8-38      4-34  (37)
+ 76 2L5F_A Pre-mRNA-processing fac  98.1 5.9E-09 7.3E-14   54.3   0.0   34    6-39     10-43  (92)
+ 77 4LCD_A E3 ubiquitin-protein li  98.1 6.1E-09 7.6E-14   68.8   0.0   35    5-39      9-43  (432)
+ 78 5DWS_A E3 ubiquitin-protein li  98.1 6.8E-09 8.4E-14   46.6   0.0   33    7-39     12-44  (47)
+ 79 5DWS_C E3 ubiquitin-protein li  98.1 6.8E-09 8.4E-14   46.6   0.0   33    7-39     12-44  (47)
+ 80 2JX8_A Phosphorylated CTD-inte  98.1 7.2E-09 8.9E-14   49.2   0.0   33    7-39     10-43  (52)
+ 81 2KXQ_A E3 ubiquitin-protein li  98.1 7.6E-09 9.4E-14   51.3   0.0   33    8-40     56-88  (90)
+ 82 4E5R_A MGC78846 protein; Dimer  98.0 1.3E-08 1.6E-13   49.9   0.0   33    7-39      5-37  (56)
+ 83 1NMV_A Peptidyl-prolyl cis-tra  98.0 1.3E-08 1.6E-13   58.2   0.0   35    5-39      4-39  (163)
+ 84 1PIN_A PEPTIDYL-PROLYL CIS-TRA  98.0 1.3E-08 1.6E-13   58.2   0.0   35    5-39      4-39  (163)
+ 85 1TK7_A CG4244-PB; WW domain, N  98.0 1.4E-08 1.8E-13   49.7   0.0   30    8-37     57-86  (88)
+ 86 2LTY_A E3 ubiquitin-protein li  98.0 1.5E-08 1.8E-13   39.3   0.0   30    8-37      3-32  (34)
+ 87 2JXW_A WW domain-binding prote  98.0 1.9E-08 2.4E-13   48.8   0.0   31    8-38      3-33  (75)
+ 88 6J1X_B NEDD4-like E3 ubiquitin  98.0 2.1E-08 2.5E-13   68.0   0.0   34    6-39      9-42  (550)
+ 89 2F21_A Peptidyl-prolyl cis-tra  98.0 2.2E-08 2.7E-13   57.2   0.0   35    5-39      4-38  (162)
+ 90 2E45_A Amyloid beta A4 precurs  98.0 2.2E-08 2.8E-13   49.7   0.0   32    7-39     19-50  (55)
+ 91 6JK1_A Dendrin,Transcriptional  97.9 2.7E-08 3.3E-13   54.1   0.0   32    7-38     26-57  (116)
+ 92 1O6W_A PRE-MRNA PROCESSING PRO  97.9 2.8E-08 3.5E-13   47.9   0.0   29   10-38      2-30  (75)
+ 93 2MDC_A Histone-lysine N-methyl  97.9 2.8E-08 3.5E-13   44.3   0.0   33    7-39      8-40  (48)
+ 94 6J1X_B NEDD4-like E3 ubiquitin  97.9 3.4E-08 4.2E-13   67.0   0.0   31    8-38    126-156 (550)
+ 95 1YMZ_A CC45; ARTIFICIAL PROTEI  97.9   5E-08 6.2E-13   41.2   0.0   33    7-39      8-40  (43)
+ 96 2KYK_A E3 ubiquitin-protein li  97.8 6.8E-08 8.4E-13   39.8   0.0   32    7-38      6-37  (39)
+ 97 6AHD_X Pre-mRNA-processing-spl  97.8 8.9E-08 1.1E-12   67.1   0.0   32    8-39    165-196 (376)
+ 98 3TC5_A Peptidyl-prolyl cis-tra  97.7 1.1E-07 1.4E-12   54.8   0.0   34    6-39      8-42  (166)
+ 99 2DK1_A WW domain-binding prote  97.7 1.5E-07 1.9E-12   46.6   0.0   32    8-39      5-36  (50)
+100 2N8S_A Nedd4 WW1; rNedd4 WW1,   97.7 1.5E-07 1.9E-12   38.5   0.0   31    8-38      6-36  (39)
+101 2MDI_A Histone-lysine N-methyl  97.7 1.7E-07 2.1E-12   44.0   0.0   33    7-39     16-48  (56)
+102 6JK1_B Dendrin,Transcriptional  97.7   2E-07 2.5E-12   50.7   0.0   31    7-37     26-56  (116)
+103 2MWF_A Transcription elongatio  97.6 2.2E-07 2.7E-12   37.2   0.0   27   12-38      3-29  (32)
+104 1TK7_A CG4244-PB; WW domain, N  97.5 4.6E-07 5.7E-12   44.4   0.0   32    6-37     11-42  (88)
+105 1ZR7_A huntingtin-interacting   97.5 4.8E-07 5.9E-12   35.3   0.0   26   12-37      3-28  (30)
+106 1EG4_A STRUCTURE OF A DYSTROPH  97.3 1.7E-06 2.1E-11   52.8   0.0   33    6-38     10-42  (261)
+107 1EG3_A STRUCTURE OF A DYSTROPH  97.2 2.5E-06 3.1E-11   52.2   0.0   33    6-38     10-42  (261)
+108 6N7P_J Pre-mRNA-splicing facto  97.2 3.6E-06 4.4E-11   59.2   0.0   33    8-40     41-73  (583)
+109 4QIB_A Peptidyl-prolyl cis-tra  97.2 3.8E-06 4.7E-11   48.6   0.0   33    7-39      2-35  (159)
+110 6NZO_S ?; Set2, nucleosome, ch  97.0 8.8E-06 1.1E-10   64.0   0.0   34    6-40    562-596 (939)
+111 6N7P_J Pre-mRNA-splicing facto  96.7 2.8E-05 3.5E-10   54.8   0.0   30   10-39      2-31  (583)
+112 2DK7_A Transcription elongatio  96.6 4.8E-05   6E-10   42.6   0.0   30   10-39     20-49  (73)
+113 6AHD_X Pre-mRNA-processing-spl  96.6 5.2E-05 6.4E-10   53.6   0.0   32    8-39    124-155 (376)
+114 6IKO_A Growth arrest-specific   94.2  0.0094 1.2E-07   40.0   0.0   28    9-36    100-127 (496)
+115 1YW5_A peptidyl prolyl cis/tra  89.4    0.17 2.1E-06   31.5   0.0   25    6-30      6-31  (177)
+116 1IG4_A Methyl-CpG Binding Prot  73.7     2.3 2.9E-05   23.8   0.0    9    7-15     10-18  (75)
+117 2MOE_A Methyl-CpG-binding doma  69.3     3.5 4.3E-05   22.7   0.0    8    7-14      8-15  (71)
+118 6ACV_A Methyl-CpG-binding doma  63.4     5.5 6.8E-05   24.8   0.0   10    7-16     34-43  (95)
+119 5WMM_B NRPS, MbtH homologue; N  61.6     6.3 7.8E-05   24.3   0.0    7    8-14     48-54  (87)
+120 2LPD_A Uncharacterized protein  59.6     7.2 8.9E-05   24.6   0.0    8    7-14     45-52  (95)
+121 5AGQ_A BROMODOMAIN ADJACENT TO  59.2     7.4 9.2E-05   24.0   0.0    9    7-15     17-25  (113)
+122 2MYY_A Conserved hypothetical   56.6     8.8 0.00011   23.2   0.0    7    8-14     39-45  (80)
+123 6EA3_A MbtH-like protein, amin  56.0     9.1 0.00011   23.2   0.0    8    7-14     37-44  (81)
+124 2MB7_A Methyl-CpG-binding doma  54.5      10 0.00012   21.0   0.0    9    7-15     12-20  (72)
+125 5U89_B Amino acid adenylation   53.4      11 0.00013   23.2   0.0    8    7-14     34-41  (83)
+126 5JA1_B Enterobactin synthase c  49.5      14 0.00017   22.1   0.0    7    8-14     35-41  (74)
+127 6D1T_A Methyl-CpG-binding doma  46.1      17 0.00021   20.7   0.0    9    7-15     12-20  (79)
+128 6CCG_A Methyl-CpG-binding doma  46.0      17 0.00021   20.3   0.0    9    7-15     12-20  (73)
+129 3VXV_A Methyl-CpG-binding doma  45.9      17 0.00021   19.7   0.0    9    7-15      5-13  (69)
+130 3VXX_A Methyl-CpG-binding doma  45.9      17 0.00021   19.7   0.0    9    7-15      5-13  (69)
+131 2PST_X Hypothetical protein PA  43.9      19 0.00024   21.4   0.0    8    7-14     32-39  (74)
+132 6OGK_A Methyl-CpG-binding prot  37.0      29 0.00036   21.0   0.0    9    7-15     23-31  (99)
+133 2YRV_A AT-rich interactive dom  36.4      30 0.00037   22.4   0.0    9    7-15     97-105 (117)
+134 6C1T_D Methyl-CpG-binding doma  34.4      34 0.00042   19.4   0.0    9    7-15     13-21  (79)
+135 6CNQ_A Methyl-CpG-binding doma  34.4      34 0.00042   19.4   0.0    9    7-15     13-21  (79)
+136 6C1Y_A Methyl-CpG-binding prot  34.2      34 0.00042   20.0   0.0    8    7-14     21-28  (86)
+137 6CNP_A Methyl-CpG-binding doma  33.5      36 0.00044   20.6   0.0    9    7-15     30-38  (96)
+138 1E0A_B G25K GTP-BINDING PROTEI  32.2      39 0.00048   16.9   0.0    6    8-13     27-32  (46)
+139 5BT2_A Methyl-CpG-binding prot  31.0      42 0.00052   20.2   0.0    9    7-15     23-31  (97)
+140 6E5F_A Lipid binding protein L  29.6      46 0.00057   21.8   0.0    9    7-15     88-96  (228)
+141 1QK9_A METHYL-CPG-BINDING PROT  28.3      50 0.00062   19.6   0.0    9    7-15     23-31  (92)
+142 4ART_A STRUCTURAL PROTEIN ORF2  25.3      61 0.00076   23.9   0.0    6   23-28    220-225 (279)
+143 4ART_B STRUCTURAL PROTEIN ORF2  25.3      61 0.00076   23.9   0.0    6   23-28    220-225 (279)
+144 3ZW1_A BAMBL LECTIN; SUGAR BIN  24.8      64 0.00079   18.8   0.0    6   21-26     15-20  (87)
+145 3LYD_B Uncharacterized protein  24.2      66 0.00082   19.0   0.0    8    7-14     23-30  (161)
+146 2ODB_B Protein: Human Cell Div  23.6      69 0.00086   15.3   0.0    6    8-13     26-31  (35)
+147 2GPF_A conserved hypothetical   21.5      81   0.001   18.7   0.0    8    7-14     30-37  (72)
+148 1UB1_A attachment region bindi  21.5      81   0.001   20.7   0.0    9    7-15     37-45  (133)
+149 1TU1_A hypothetical protein PA  20.3      89  0.0011   17.5   0.0    7    8-14     15-21  (148)
+
+No 1
+>5XMC_A E3 ubiquitin-protein ligase Itchy (E.C.2.3.2.26); Auto-inhibited Itch, LIGASE; 2.6A {Mus musculus}
+Probab=98.84  E-value=3.7e-12  Score=91.21  Aligned_cols=35  Identities=49%  Similarity=1.000  Sum_probs=0.8  Template_Neff=8.600
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      .++|.+|++..+..+..||+++.++.+.|.+|+..
+T Consensus       297 ~~lp~gWe~~~~~~g~~yfv~h~t~~tt~~~P~~~  331 (722)
+T 5XMC_A          297 KPLPEGWEMRFTVDGIPYFVDHNRRATTYIDPRTG  331 (722)
+T ss_dssp             ----------B------------------------
+T ss_pred             CCCCCCcceeeCCCCCeeeeeCCCCcccccCCCcC
+Confidence            34667888887778888888888888888877654
+
+
+No 2
+>2YSF_A E3 ubiquitin-protein ligase Itchy homolog; Itch, AIP4, NAPP1, WW domain; NMR {Homo sapiens} SCOP: k.22.1.1
+Probab=98.84  E-value=3.8e-12  Score=55.50  Aligned_cols=35  Identities=51%  Similarity=1.031  Sum_probs=26.3  Template_Neff=11.800
+
+Q 5AHT_A            5 QGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         5 ~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ...++.+|+...+..+..+++++.+..++|+.|..
+T Consensus         5 ~~~~p~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~   39 (40)
+T 2YSF_A            5 SSGLPEGWEMRFTVDGIPYFVDHNRRTTTYIDPRT   39 (40)
+T ss_pred             CCCCCCCeEEEECCCCCEEEEECCCCcEEeeCCCC
+Confidence            45577889887766677888888888888887653
+
+
+No 3
+>6JJX_B Protein KIBRA, Peptide from Angiomotin; WW tandem, PY tandem, KIBRA; 2.0A {Mus musculus}
+Probab=98.83  E-value=3.9e-12  Score=71.48  Aligned_cols=34  Identities=56%  Similarity=0.899  Sum_probs=28.0  Template_Neff=10.100
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      .++.+|+...+..+..||+++.++.+.|..|...
+T Consensus        56 ~lp~gW~~~~~~~g~~yy~n~~t~~t~w~~P~~~   89 (134)
+T 6JJX_B           56 ELPLGWEEAYDPQVGDYFIDHNTKTTQIEDPRVQ   89 (134)
+T ss_dssp             CCCTTEEEEEETTTEEEEEETTTTEEESSCHHHH
+T ss_pred             CCCCCcEEEEcCCCCeEEEECCCCeEeecCcccc
+Confidence            4677899888777888999999999999887653
+
+
+No 4
+>6JJZ_A Membrane-associated guanylate kinase, WW and; WW tandem, PY tandem, MAGI2; 1.65A {Mus musculus}
+Probab=98.83  E-value=4.2e-12  Score=66.73  Aligned_cols=35  Identities=34%  Similarity=0.686  Sum_probs=27.9  Template_Neff=10.900
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLKI   41 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~~   41 (43)
+                      .++.+|+...+..+..||+++.++.+.|..|....
+T Consensus        60 ~l~~~w~~~~~~~g~~yy~n~~t~~t~w~~p~~~~   94 (102)
+T 6JJZ_A           60 ELPYGWEKIDDPIYGTYYVDHINRRTQFENPVLEA   94 (102)
+T ss_dssp             CCCTTEEEEEETTTEEEEEETTTTEEESSCHHHHH
+T ss_pred             CCCCccEEEECCCCCeEEEECCCCeEEecCCcchH
+Confidence            35667888777778889999999999999877653
+
+
+No 5
+>5AHT_A E3 UBIQUITIN-PROTEIN LIGASE NEDD4 (E.C.6.3.2.19); ISOMERASE, WW3, PROTEIN-PEPTIDE COMPLEX, PROTEIN; NMR {HOMO SAPIENS}
+Probab=98.82  E-value=4.6e-12  Score=55.02  Aligned_cols=39  Identities=100%  Similarity=1.722  Sum_probs=28.0  Template_Neff=12.200
+
+Q 5AHT_A            3 MEQGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLKI   41 (43)
+Q Consensus         3 ~~~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~~   41 (43)
+                      +....++.+|+...+..+..++++.....+.|..|....
+T Consensus         3 ~~~~~~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~~~~   41 (43)
+T 5AHT_A            3 MEQGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLKI   41 (43)
+T ss_dssp             STTCSSSTTEEEEECTTSCEEEEETTTTEEESCCGGGTC
+T ss_pred             cccCCCCCCcEEEECCCCCEEEEECCCCeEEeeCCCCCC
+Confidence            344557788887766667778888777888888776543
+
+
+No 6
+>6JJZ_B Membrane-associated guanylate kinase, WW and; WW tandem, PY tandem, MAGI2; 1.65A {Mus musculus}
+Probab=98.81  E-value=5.6e-12  Score=66.26  Aligned_cols=35  Identities=34%  Similarity=0.686  Sum_probs=27.6  Template_Neff=10.900
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLKI   41 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~~   41 (43)
+                      .++.+|+...+..+..||+++.++.+.|..|...+
+T Consensus        60 ~l~~~w~~~~~~~g~~y~~n~~t~~t~w~~P~~~~   94 (102)
+T 6JJZ_B           60 ELPYGWEKIDDPIYGTYYVDHINRRTQFENPVLEA   94 (102)
+T ss_pred             CCCCCCeEEECCCCCEEEEECCCCeEEeeCccccc
+Confidence            35667888777778889999999999998876543
+
+
+No 7
+>2LTZ_A E3 ubiquitin-protein ligase SMURF2, Smad7; WW, SMURF2, SMAD7, PROTEIN BINDING-PEPTIDE; NMR {Homo sapiens}
+Probab=98.77  E-value=8.6e-12  Score=51.60  Aligned_cols=33  Identities=55%  Similarity=1.188  Sum_probs=23.6  Template_Neff=12.700
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ++.+|+...+..+..++.+.....++|..|...
+T Consensus         3 ~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~~~   35 (37)
+T 2LTZ_A            3 LPPGWEIRNTATGRVYFVDHNNRTTQFTDPRLS   35 (37)
+T ss_dssp             SCTTEEEEEETTTEEEEEETTTTEEESSCTTTT
+T ss_pred             CCCCcEEEECCCCCEEEEECCCCeEEeeCCCCC
+Confidence            456787766656677788777788888877553
+
+
+No 8
+>6JJX_B Protein KIBRA, Peptide from Angiomotin; WW tandem, PY tandem, KIBRA; 2.0A {Mus musculus}
+Probab=98.77  E-value=8.8e-12  Score=70.09  Aligned_cols=36  Identities=42%  Similarity=0.832  Sum_probs=28.3  Template_Neff=10.100
+
+Q 5AHT_A            4 EQGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         4 ~~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ....+|.+|+...+..|..||+++.+..++|..|..
+T Consensus         6 ~~~~lp~~W~~~~d~~g~~yy~~~~t~~ttw~~P~~   41 (134)
+T 6JJX_B            6 FELPLPEGWEEARDFDGKVYYIDHRNRTTSWIDPRD   41 (134)
+T ss_dssp             CCCCCCTTEEEEECTTCCEEEEETTTTEEESSCTTH
+T ss_pred             cCCCCCCCcEEEECCCCCEEEEECCCCeEEEeCCcc
+Confidence            345678899988777888899988888888887643
+
+
+No 9
+>2YSG_A Syntaxin-binding protein 4; Synip, STXBP4, WW domain, Structural; NMR {Homo sapiens} SCOP: k.22.1.1
+Probab=98.77  E-value=9.2e-12  Score=54.68  Aligned_cols=35  Identities=40%  Similarity=0.802  Sum_probs=26.2  Template_Neff=11.600
+
+Q 5AHT_A            5 QGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         5 ~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ...++.+|+..++..+..+++++.+..+.|+.|..
+T Consensus         5 ~~~~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~~   39 (40)
+T 2YSG_A            5 SSGLPYGWEEAYTADGIKYFINHVTQTTSWIHPVM   39 (40)
+T ss_pred             CCCCCCCCEEEECCCCCEEEEECCCCeEEeeCCCC
+Confidence            34577789887776677788888888888887653
+
+
+No 10
+>6JJY_A Protein KIBRA, Peptide from Dystroglycan; WW tandem, PY tandem, KIBRA; HET: SO4; 2.298A {Mus musculus}
+Probab=98.75  E-value=1.2e-11  Score=69.37  Aligned_cols=34  Identities=56%  Similarity=0.899  Sum_probs=26.3  Template_Neff=10.200
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      .++.+|+...+..+..||+++.++.++|..|...
+T Consensus        56 ~lp~gW~~~~~~~g~~yy~n~~t~~t~w~~P~~~   89 (134)
+T 6JJY_A           56 ELPLGWEEAYDPQVGDYFIDHNTKTTQIEDPRVQ   89 (134)
+T ss_dssp             CT--TEEEEEETTTEEEEEETTTTEEESSCHHHH
+T ss_pred             CCCCCeEEEECCCCCEEEEECCCCeEEeeCCCCc
+Confidence            4677899888877888999999999999887653
+
+
+No 11
+>2YSE_A Membrane-associated guanylate kinase, WW and; MAGI-1, WW domain, Structural Genomics; NMR {Homo sapiens}
+Probab=98.75  E-value=1.2e-11  Score=61.50  Aligned_cols=35  Identities=34%  Similarity=0.656  Sum_probs=26.6  Template_Neff=10.100
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..+|.+|+...+..+..||+++.+..++|..|...
+T Consensus        12 ~~lp~~w~~~~~~~~~~y~~n~~~~~~~w~~P~~~   46 (60)
+T 2YSE_A           12 LELPAGWEKIEDPVYGIYYVDHINRKTQYENPVLE   46 (60)
+T ss_dssp             SSCCSSEEEEECSSSCEEEEETTTEE-ESSCHHHH
+T ss_pred             CCCCCCeEEEECCCCCEEEEECCCCeEEeeCCCCC
+Confidence            35778899887766778888888888999887654
+
+
+No 12
+>2EZ5_W E3 ubiquitin-protein ligase NEDD4 (E.C.6.3.2.-)/Commissureless; Nedd4  WW domain ; NMR {Drosophila melanogaster}
+Probab=98.74  E-value=1.3e-11  Score=56.20  Aligned_cols=35  Identities=54%  Similarity=1.027  Sum_probs=26.9  Template_Neff=11.300
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+..++..+..|++++.+..++|..|...
+T Consensus         9 ~~lp~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~   43 (46)
+T 2EZ5_W            9 EPLPPRWSMQVAPNGRTFFIDHASRRTTWIDPRNG   43 (46)
+T ss_dssp             CCCCTTEEEEECTTSSEEEEETTTTEEESBCTTTC
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCeEEEeCCCCC
+Confidence            34677898877766778888888888888887654
+
+
+No 13
+>3L4H_A E3 ubiquitin-protein ligase HECW1 (E.C.6.3.2.-); E3 ligase, WW domain, UBL-conjugation; 1.8A {Homo sapiens}
+Probab=98.74  E-value=1.3e-11  Score=73.40  Aligned_cols=36  Identities=44%  Similarity=1.018  Sum_probs=30.2  Template_Neff=7.000
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLKI   41 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~~   41 (43)
+                      ..+|.+|+...+..+..||+++.++.++|.+|+...
+T Consensus        71 ~~LP~gWe~~~~~~G~~yfin~~tk~Ttw~dPr~~~  106 (109)
+T 3L4H_A           71 LELPRGWEIKTDQQGKSFFVDHNSRATTFIDPRIPL  106 (109)
+T ss_dssp             SCCCTTEEEEECTTCCEEEEETTTTEEESSCSCCSC
+T ss_pred             CCCCCCEEEEEcCCCCEEEEECCCCeEEecCCCCCC
+Confidence            457889998888788899999999999999987653
+
+
+No 14
+>6JJY_A Protein KIBRA, Peptide from Dystroglycan; WW tandem, PY tandem, KIBRA; HET: SO4; 2.298A {Mus musculus}
+Probab=98.73  E-value=1.4e-11  Score=69.02  Aligned_cols=37  Identities=41%  Similarity=0.792  Sum_probs=28.2  Template_Neff=10.200
+
+Q 5AHT_A            3 MEQGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         3 ~~~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      +....+|.+|+...+..|..||+++.+..++|..|..
+T Consensus         5 ~~~~~lp~~W~~~~~~~G~~yy~~~~t~~t~w~~P~~   41 (134)
+T 6JJY_A            5 EFELPLPEGWEEARDFDGKVYYIDHRNRTTSWIDPRD   41 (134)
+T ss_dssp             -CCCCCCTTEEEEECTTSCEEEEETTTTEEESSCTTC
+T ss_pred             CCCCCCCCCcEEEECCCCCEEEEECCCCeEEeeCCcc
+Confidence            3455678899887777888899888888888876643
+
+
+No 15
+>2OP7_A NEDD4-like E3 ubiquitin-protein ligase WWP1; WW domain, Beta sheet, LIGASE; NMR {Homo sapiens} SCOP: k.22.1.1
+Probab=98.71  E-value=1.8e-11  Score=51.31  Aligned_cols=34  Identities=53%  Similarity=1.013  Sum_probs=24.5  Template_Neff=12.600
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      .++.+|+...+..+..++.++....++|..|...
+T Consensus         4 ~~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~~~   37 (39)
+T 2OP7_A            4 PLPEGWEIRYTREGVRYFVDHNTRTTTFKDPRNG   37 (39)
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCcEEecCCCCC
+Confidence            4667888766666667777777778888877554
+
+
+No 16
+>1JMQ_A 65 KDA YES-ASSOCIATED PROTEIN, Peptide:; WW domain, polyproline ligand, YAP65; NMR {Homo sapiens} SCOP: b.72.1.1
+Probab=98.71  E-value=1.9e-11  Score=55.88  Aligned_cols=35  Identities=43%  Similarity=0.895  Sum_probs=26.8  Template_Neff=11.200
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+...+..+..|+++...+.++|.+|...
+T Consensus         7 ~~~p~~w~~~~~~~g~~~~~~~~~~~~~w~~p~~~   41 (46)
+T 1JMQ_A            7 VPLPAGWEMAKTSSGQRYFKNHIDQTTTWQDPRKA   41 (46)
+T ss_dssp             CCCCTTBCCBCCSSCCCBEEETTTTEEESSCTTTS
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCeEEeeCCchh
+Confidence            34677898877766778888888888888887653
+
+
+No 17
+>2ZAJ_A Membrane-associated guanylate kinase, WW and; BAI1-associated protein 1 (BAP-1), Membrane-associated; NMR {Homo sapiens}
+Probab=98.69  E-value=2.5e-11  Score=56.74  Aligned_cols=35  Identities=31%  Similarity=0.576  Sum_probs=25.9  Template_Neff=10.900
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+...+..+..|+++.....++|..|...
+T Consensus        12 ~~lp~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~   46 (49)
+T 2ZAJ_A           12 LELPAGWEKIEDPVYGIYYVDHINRKTQYENPSGP   46 (49)
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCeEEEeCCCCC
+Confidence            34677888877666677888888888888877654
+
+
+No 18
+>2KXQ_A E3 ubiquitin-protein ligase SMURF2, S7PY; WW, PY motif, Smurf2, TGF-beta; NMR {Homo sapiens}
+Probab=98.66  E-value=3.5e-11  Score=59.74  Aligned_cols=33  Identities=39%  Similarity=0.848  Sum_probs=24.4  Template_Neff=11.900
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ..++.+|+...+..+..||++...+.++|..+.
+T Consensus         8 ~~~p~~w~~~~~~~g~~yy~~~~~~~~~~~~p~   40 (90)
+T 2KXQ_A            8 PDLPEGYEQRTTQQGQVYFLHTQTGVSTWHDPR   40 (90)
+T ss_dssp             CSCCSSCEEEEETTTEEEEEETTTTEEESSCSS
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCeEEeeCCC
+Confidence            456778888777778888888777777776654
+
+
+No 19
+>5XMC_A E3 ubiquitin-protein ligase Itchy (E.C.2.3.2.26); Auto-inhibited Itch, LIGASE; 2.6A {Mus musculus}
+Probab=98.65  E-value=3.7e-11  Score=86.17  Aligned_cols=31  Identities=48%  Similarity=1.041  Sum_probs=21.0  Template_Neff=8.600
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      ++|.+|+...+..|..||+++.++.++|..|
+T Consensus       146 ~lp~~W~~~~~~~G~~yy~~~~t~~t~w~~p  176 (722)
+T 5XMC_A          146 PLPPGWEQRVDQHGRVYYVDHVEKRTTWDRP  176 (722)
+T ss_dssp             CCCTTEEEEECTTSCEEEEETTTTEEESSCC
+T ss_pred             CCCCCcEEEECCCCCEEEEeCCCCeEecccC
+Confidence            3566777766666777777777777777655
+
+
+No 20
+>2LAJ_A E3 ubiquitin-protein ligase NEDD4-like (E.C.6.3.2.-); CDK, signal transduction, LIGASE-TRANSCRIPTION REGULATOR; NMR {Homo sapiens}
+Probab=98.64  E-value=4.4e-11  Score=53.17  Aligned_cols=37  Identities=84%  Similarity=1.496  Sum_probs=27.1  Template_Neff=11.700
+
+Q 5AHT_A            5 QGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLKI   41 (43)
+Q Consensus         5 ~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~~   41 (43)
+                      ...++.+|+..++..+..|+++.....++|..|....
+T Consensus         5 ~~~~p~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~~   41 (44)
+T 2LAJ_A            5 QSFLPPGWEMRIAPNGRPFFYDHNTKTTTWEDPRLKF   41 (44)
+T ss_dssp             CCSSCTTEEEEEETTTEEEEEETTTTEEESSCGGGGG
+T ss_pred             CCCCCCCcEEEECCCCCEEEEECCCCcEEEeCCCCCC
+Confidence            3456778888776667778888888888888776543
+
+
+No 21
+>2L5F_A Pre-mRNA-processing factor 40 homolog A; 2WW, HYPA, FBP11, PROTEIN BINDING; NMR {Homo sapiens}
+Probab=98.62  E-value=5.6e-11  Score=61.96  Aligned_cols=33  Identities=18%  Similarity=0.557  Sum_probs=26.5  Template_Neff=10.700
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ++.+|+...+..+..||+++.+..++|..|...
+T Consensus        53 ~~~~w~~~~~~~g~~yy~n~~t~~t~w~~P~~~   85 (92)
+T 2L5F_A           53 SKCPWKEYKSDSGKTYYYNSQTKESRWAKPKEL   85 (92)
+T ss_dssp             HSCSEEEEECTTCCEEEEETTTTEEESCCCHHH
+T ss_pred             cCCCcEEEECCCCCEEEEECCCCEEEEeCChhH
+Confidence            456788777777888999999999999887654
+
+
+No 22
+>2DJY_A Smad ubiquitination regulatory factor 2; beta sheet, polyproline type II; NMR {Homo sapiens}
+Probab=98.61  E-value=6.4e-11  Score=51.15  Aligned_cols=35  Identities=54%  Similarity=1.147  Sum_probs=25.2  Template_Neff=12.200
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+...+..+..++.+.....++|.+|...
+T Consensus         6 ~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~   40 (42)
+T 2DJY_A            6 GPLPPGWEIRNTATGRVYFVDHNNRTTQFTDPRLS   40 (42)
+T ss_dssp             SCCCSSEEEEECSSSCEEEEETTTTEEESSCTTTS
+T ss_pred             CCCCCCeEEEECCCCCEEEEECCCCeEEeeCCCCC
+Confidence            34677888776656677888877888888876543
+
+
+No 23
+>2JMF_A E3 ubiquitin-protein ligase suppressor of; WW domain, Notch, NMR solution; NMR {Drosophila melanogaster} SCOP: b.72.1.1
+Probab=98.59  E-value=7.1e-11  Score=56.13  Aligned_cols=35  Identities=57%  Similarity=1.074  Sum_probs=26.0  Template_Neff=10.800
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+..++..+..|+++..++.++|.++...
+T Consensus        17 ~~~p~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~   51 (53)
+T 2JMF_A           17 GPLPPGWEIRYTAAGERFFVDHNTRRTTFEDPRPG   51 (53)
+T ss_dssp             SCCCTTEEEEECTTSCEEEEETTTCCEESSCCCSS
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCcEEEeCCCCC
+Confidence            34667888877666778888888888888877543
+
+
+No 24
+>5DZD_A E3 ubiquitin-protein ligase Itchy homolog; structural genomics, Structural Genomics Consortium; HET: UNX; 1.57A {Homo sapiens}
+Probab=98.59  E-value=7.3e-11  Score=53.29  Aligned_cols=35  Identities=51%  Similarity=1.018  Sum_probs=25.8  Template_Neff=11.600
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+...+..+..++++..+..++|..|...
+T Consensus        11 ~~lp~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~   45 (47)
+T 5DZD_A           11 KPLPEGWEMRFTVDGIPYFVDHNRRTTTYIDPRTG   45 (47)
+T ss_dssp             CCCCTTEEEEECTTCCEEEEETTTTEEESSBTTTT
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCeEEEcCCCCC
+Confidence            34677888877666777888888888888877543
+
+
+No 25
+>5DZD_B E3 ubiquitin-protein ligase Itchy homolog; structural genomics, Structural Genomics Consortium; HET: UNX; 1.57A {Homo sapiens}
+Probab=98.59  E-value=7.3e-11  Score=53.29  Aligned_cols=35  Identities=51%  Similarity=1.018  Sum_probs=25.8  Template_Neff=11.600
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+...+..+..++++..+..++|..|...
+T Consensus        11 ~~lp~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~   45 (47)
+T 5DZD_B           11 KPLPEGWEMRFTVDGIPYFVDHNRRTTTYIDPRTG   45 (47)
+T ss_dssp             SCCCTTEEEEECTTSCEEEEETTTTEEESSCTTTS
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCeEEEcCCCCC
+Confidence            34677888877666777888888888888877543
+
+
+No 26
+>2DWV_B Salvador homolog 1 protein; WW domain, dimer, Structural Genomics; NMR {Mus musculus}
+Probab=98.59  E-value=7.7e-11  Score=55.07  Aligned_cols=35  Identities=26%  Similarity=0.544  Sum_probs=26.1  Template_Neff=10.900
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLKI   41 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~~   41 (43)
+                      .++.+|+..++..+..|++++....+.|+.|....
+T Consensus        13 ~~p~~w~~~~~~~~~~~~~~~~~~~s~w~~p~~~~   47 (49)
+T 2DWV_B           13 GLPPGWERVESSEFGTYYVDHTNKRAQYRHPSGPS   47 (49)
+T ss_dssp             CCCTTEEEEECSSSCEEEEETTTTEEESSCCCCCC
+T ss_pred             CCCCCeEEEEcCCCCEEEEECCCCEEEEECCCCCC
+Confidence            46777887766666778888888888898876543
+
+
+No 27
+>6RSS_A NEDD4-like E3 ubiquitin-protein ligase WWP2; Three-stranded antiparallel beta-sheet, PPxY motif; NMR {Homo sapiens}
+Probab=98.58  E-value=8.3e-11  Score=68.55  Aligned_cols=35  Identities=49%  Similarity=0.952  Sum_probs=28.4  Template_Neff=7.900
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+..++..+..||+++.++.++|.+|++.
+T Consensus        73 ~~lp~gWe~~~d~~g~~yyvn~~t~~t~w~~Pr~~  107 (109)
+T 6RSS_A           73 PALPPGWEMKYTSEGVRYFVDHNTRTTTFKDPRPG  107 (109)
+T ss_dssp             SSCCTTEEEEECTTSCEEEEETTTTEEECCCSSGG
+T ss_pred             CCCCCCeEEEEeCCCCEEEEECCCCeEEEeCCCCC
+Confidence            34677898888777888999998889999988654
+
+
+No 28
+>2LAW_A Yorkie homolog, Mothers against decapentaplegic; YAP, SMAD1, CDK, signal transduction; NMR {Homo sapiens}
+Probab=98.57  E-value=9.6e-11  Score=49.26  Aligned_cols=33  Identities=48%  Similarity=1.057  Sum_probs=23.3  Template_Neff=12.400
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ..++.+|+...+..+..++.+.....++|..|.
+T Consensus         5 ~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   37 (38)
+T 2LAW_A            5 GPLPDGWEQAMTQDGEIYYINHKNKTTSWLDPR   37 (38)
+T ss_dssp             CCCSSSCCEEEETTTEEEEEETTTTEEESSCTT
+T ss_pred             CCCCCCeEEEECCCCCEEEEECCCCeEEeeCCC
+Confidence            346678887776666677877777777777654
+
+
+No 29
+>2LAZ_A E3 ubiquitin-protein ligase SMURF1 (E.C.6.3.2.-); SMURF, SMAD, CDK, signal transduction; NMR {Homo sapiens}
+Probab=98.56  E-value=1e-10  Score=46.03  Aligned_cols=31  Identities=42%  Similarity=0.951  Sum_probs=19.5  Template_Neff=13.300
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ++.+|+...+..+..++.+.....+.|..+.
+T Consensus         2 ~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   32 (33)
+T 2LAZ_A            2 LPEGYEQRTTVQGQVYFLHTQTGVSTWHDPR   32 (33)
+T ss_dssp             CCTTCEEEEETTTEEEEEETTTTEEESSCTT
+T ss_pred             CCCCeEEEECCCCCEEEEECCCCeEEecCCC
+Confidence            3456776665556667776666667776553
+
+
+No 30
+>3LE4_A Microprocessor complex subunit DGCR8; WW motif, dimerization, 3D domain; 1.701A {Homo sapiens}
+Probab=98.56  E-value=1.1e-10  Score=69.71  Aligned_cols=34  Identities=26%  Similarity=0.753  Sum_probs=28.6  Template_Neff=4.100
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ..+|.+|.......|..||++..++..+|..|..
+T Consensus        27 ~~LP~GW~e~~h~SG~pyY~h~~Trv~TwsrPy~   60 (79)
+T 3LE4_A           27 EPLPDGWIMTFHNSGVPVYLHRESRVVTWSRPYF   60 (79)
+T ss_dssp             CCCCTTEEEEECTTSSEEEEETTTTEEESSCCCC
+T ss_pred             CCCCCCcEEEECCCCCEEEEeCCCCEEEEeCCcc
+Confidence            3588999988888999999999999999987653
+
+
+No 31
+>4REX_A Yorkie homolog; WW domain, Hippo signaling pathway; 1.6A {Homo sapiens}
+Probab=98.55  E-value=1.1e-10  Score=54.06  Aligned_cols=35  Identities=43%  Similarity=0.941  Sum_probs=26.1  Template_Neff=11.100
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+...+..+..|++++....++|.+|...
+T Consensus        11 ~~~p~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~   45 (49)
+T 4REX_A           11 VPLPAGWEMAKTSSGQRYFLNHIDQTTTWQDPRKA   45 (49)
+T ss_dssp             SCCCTTEEEEECTTSCEEEEETTTTEEESSCGGGG
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCeEEecCCchh
+Confidence            34677888877666778888888888888887653
+
+
+No 32
+>6JK0_A Transcriptional coactivator YAP1,Dendrin; WW tandem, PY tandem, KIBRA; 3.1A {Mus musculus}
+Probab=98.54  E-value=1.2e-10  Score=66.17  Aligned_cols=34  Identities=44%  Similarity=0.956  Sum_probs=27.5  Template_Neff=9.700
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      .++.+|+...+..+..||++..++.++|..|...
+T Consensus        81 ~lp~~W~~~~~~~g~~yy~n~~t~~t~w~~P~~~  114 (132)
+T 6JK0_A           81 PLPDGWEQAMTQDGEVYYINHKNKTTSWLDPRDR  114 (132)
+T ss_dssp             CCCTTEEEEECTTCCEEEEETTTTEEESSCGGGC
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEEeCCCCC
+Confidence            4667898877777888999998889999887654
+
+
+No 33
+>2LTV_A Yorkie homolog, Mothers against decapentaplegic; WW, YAP, SMAD7, PROTEIN BINDING-PEPTIDE; NMR {Homo sapiens}
+Probab=98.53  E-value=1.4e-10  Score=47.38  Aligned_cols=31  Identities=48%  Similarity=1.095  Sum_probs=21.9  Template_Neff=12.800
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ++.+|+...+..+..++.+.....++|..|.
+T Consensus         3 ~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   33 (36)
+T 2LTV_A            3 LPDGWEQAMTQDGEIYYINHKNKTTSWLDPR   33 (36)
+T ss_pred             CCCCeEEEECCCCCEEEEECCCCeEEEeCCC
+Confidence            5567877666556677777777778887664
+
+
+No 34
+>2HO2_A Amyloid beta A4 protein-binding family; WW DOMAIN, BETA SHEET, FE65; 1.33A {Homo sapiens} SCOP: b.72.1.1
+Probab=98.52  E-value=1.5e-10  Score=50.27  Aligned_cols=33  Identities=33%  Similarity=0.640  Sum_probs=24.0  Template_Neff=11.600
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      .++.+|+..++..+ .||++.....++|..|...
+T Consensus         3 ~~p~~w~~~~~~~~-~~~~~~~~~~~~w~~p~~~   35 (38)
+T 2HO2_A            3 DLPAGWMRVQDTSG-TYYWHIPTGTTQWEPPGRA   35 (38)
+T ss_dssp             CSCTTEEEEECSSC-EEEEETTTTEEESSCCCC-
+T ss_pred             CCCCCcEEEECCCc-eEEEECCCCcEEEeCCCCC
+Confidence            45677887776666 7888888888888877553
+
+
+No 35
+>2OEI_A Amyloid beta A4 protein-binding family; WW domain, FE65, human Mena; 1.35A {Homo sapiens} SCOP: b.72.1.1
+Probab=98.52  E-value=1.5e-10  Score=50.27  Aligned_cols=33  Identities=33%  Similarity=0.640  Sum_probs=24.4  Template_Neff=11.600
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      .++.+|+..++..+ .||++.....++|..|...
+T Consensus         3 ~~p~~w~~~~~~~~-~~~~~~~~~~~~w~~p~~~   35 (38)
+T 2OEI_A            3 DLPAGWMRVQDTSG-TYYWHIPTGTTQWEPPGRA   35 (38)
+T ss_dssp             CSCTTEEEEEETTE-EEEEETTTTEEESSCCCSS
+T ss_pred             CCCCCcEEEECCCc-eEEEECCCCcEEEeCCCCC
+Confidence            45677887776666 7888888888888877553
+
+
+No 36
+>1WMV_A WW domain containing oxidoreductase; WW domain, all-beta, OXIDOREDUCTASE, APOPTOSIS; NMR {Homo sapiens}
+Probab=98.51  E-value=1.8e-10  Score=55.54  Aligned_cols=35  Identities=54%  Similarity=0.945  Sum_probs=26.5  Template_Neff=10.500
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+..++..+..||+++.+..++|..|...
+T Consensus        10 ~~lp~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~   44 (54)
+T 1WMV_A           10 GDLPYGWEQETDENGQVFFVDHINKRTTYLDPRLA   44 (54)
+T ss_dssp             SCSCTTEEEEECTTSCEEEEESSSCCEESSCTTSS
+T ss_pred             CCCCCCeEEEECCCCCEEEEECCCCeEEEeCcccc
+Confidence            34677898877766778888888888888876554
+
+
+No 37
+>2JXW_A WW domain-binding protein 4; WW domain containing protein, WW; NMR {Homo sapiens}
+Probab=98.50  E-value=1.9e-10  Score=55.93  Aligned_cols=31  Identities=19%  Similarity=0.563  Sum_probs=23.5  Template_Neff=11.700
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ++.+|+...+..+..||++..+..++|..|.
+T Consensus        44 ~~~~w~~~~~~~g~~yy~~~~t~~t~w~~p~   74 (75)
+T 2JXW_A           44 VKTVWVEGLSEDGFTYYYNTETGESRWEKPD   74 (75)
+T ss_dssp             CCCSEEEEEETTTEEEEEETTTTEEESSCCC
+T ss_pred             cccceEEEECCCCCEEEEECCCCEEEEeCCC
+Confidence            3456887777777888888888888887653
+
+
+No 38
+>6JK1_A Dendrin,Transcriptional coactivator YAP1; WW tandem, PY tandem, YAP1; 2.0A {Mus musculus}
+Probab=98.50  E-value=2e-10  Score=62.43  Aligned_cols=30  Identities=47%  Similarity=1.088  Sum_probs=24.1  Template_Neff=10.500
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      ++.+|+...+..+..||++..++.++|+++
+T Consensus        86 lp~~w~~~~~~~gr~yy~n~~t~~t~w~~p  115 (116)
+T 6JK1_A           86 LPDGWEQAMTQDGEVYYINHKNKTTSWLDP  115 (116)
+T ss_pred             CCCCcEEEECCCCCEEEEECCCCeEEeeCC
+Confidence            556788877777888999988888888765
+
+
+No 39
+>2N8T_A rNedd4_WW2, Cx43CT_peptide; rNedd4 WW2, Cx43CT, phosphorylation, LIGASE; HET: SEP; NMR {Rattus norvegicus}
+Probab=98.50  E-value=2e-10  Score=48.27  Aligned_cols=32  Identities=50%  Similarity=1.098  Sum_probs=23.3  Template_Neff=12.500
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      .++.+|+...+..+..|+.+.....++|..|.
+T Consensus         5 ~~~~~w~~~~~~~~~~~~~~~~~~~~~w~~p~   36 (39)
+T 2N8T_A            5 GLPPGWEEKQDDRGRSYYVDHNSKTTTWSKPT   36 (39)
+T ss_dssp             SSCTTEEEEECTTCCEEEEETTTTEECCCCCC
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEEeCCC
+Confidence            45677887766667778877777788887764
+
+
+No 40
+>6JK0_A Transcriptional coactivator YAP1,Dendrin; WW tandem, PY tandem, KIBRA; 3.1A {Mus musculus}
+Probab=98.47  E-value=2.6e-10  Score=64.89  Aligned_cols=34  Identities=47%  Similarity=1.037  Sum_probs=26.8  Template_Neff=9.700
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ..++.+|+...+..+..||++..++.++|..|..
+T Consensus        21 ~~lp~gW~~~~d~~g~~yy~n~~t~~ttw~~P~~   54 (132)
+T 6JK0_A           21 VPLPAGWEMAKTSSGQRYFLNHNDQTTTWQDPRK   54 (132)
+T ss_dssp             SCCCTTEEEEECTTCCEEEEETTTTEEESSCCCC
+T ss_pred             CCCCCCeEEEECCCCCEEEEECCCCceEecCccc
+Confidence            3577889888777888899888888888876653
+
+
+No 41
+>5TJ8_A NEDD4-like E3 ubiquitin-protein ligase WWP2; WWP2, HECT Domain, WW2, WWP1; 2.3A {Homo sapiens}
+Probab=98.47  E-value=2.6e-10  Score=75.43  Aligned_cols=31  Identities=52%  Similarity=1.099  Sum_probs=25.6  Template_Neff=9.800
+
+Q 5AHT_A            9 PKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         9 P~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      |.+|+...+..|..||+++.+..++|..|..
+T Consensus         1 ~~~we~r~~~~g~~y~v~~~~~~t~w~~p~~   31 (447)
+T 5TJ8_A            1 GPGWEKRTDPRGRFYYVDHNTRTTTWQRPTA   31 (447)
+T ss_pred             CCCceEeeCCCCCEEEEeCCCCeeeeecCch
+Confidence            5689998888899999999988888876643
+
+
+No 42
+>2LTW_A Yorkie homolog, Smad7 derived peptide; WW, YAP, SMAD7, PROTEIN BINDING-PEPTIDE; NMR {Homo sapiens}
+Probab=98.45  E-value=3.2e-10  Score=46.52  Aligned_cols=32  Identities=47%  Similarity=1.089  Sum_probs=21.8  Template_Neff=12.700
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      .++.+|+...+..+..++.+......+|..|.
+T Consensus         3 ~~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   34 (36)
+T 2LTW_A            3 PLPAGWEMAKTSSGQRYFLNHIDQTTTWQDPR   34 (36)
+T ss_dssp             SSCTTEEEEEETTTEEEEEETTTTEEECSCTT
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEeeCCC
+Confidence            35667877665556667777777777777654
+
+
+No 43
+>5YDX_A WW domain with PPxY motif; Hippo pathway, YAP, LATs, WW; NMR {Homo sapiens}
+Probab=98.45  E-value=3.2e-10  Score=56.62  Aligned_cols=34  Identities=44%  Similarity=0.973  Sum_probs=24.9  Template_Neff=9.900
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ..++.+|+...+..+..|++++.+...+|.+|..
+T Consensus         8 ~~lp~gW~~~~~~~g~~~~~~~~t~~~~w~~p~~   41 (59)
+T 5YDX_A            8 VPLPAGWEMAKTSSGQRYFLNHIDQTTTWQDPRK   41 (59)
+T ss_dssp             SCCSTTEEEEESSSSCEEEEETTTTBCCSSCTT-
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCcEEEeCCCC
+Confidence            3467789887776677888887777888877654
+
+
+No 44
+>2DMV_A Itchy homolog E3 ubiquitin protein; WW domain, three stranded antiparallel; NMR {Homo sapiens}
+Probab=98.44  E-value=3.5e-10  Score=49.18  Aligned_cols=36  Identities=42%  Similarity=0.841  Sum_probs=25.7  Template_Neff=12.100
+
+Q 5AHT_A            5 QGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         5 ~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ...++.+|+...+..+..++.+.....+.|..|...
+T Consensus         5 ~~~~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~~~   40 (43)
+T 2DMV_A            5 SSGLPPGWEQRVDQHGRVYYVDHVEKRTTWDRPSGP   40 (43)
+T ss_dssp             CCSCCTTEEEEECTTSCEEEEETTTCCEESSCSSSC
+T ss_pred             CCCCCCCcEEEECCCCCEEEEECCCCeEEEeCCCCC
+Confidence            345677888776666667777777778888877554
+
+
+No 45
+>4N7F_B E3 ubiquitin-protein ligase NEDD4; beta sheet, WW domain, target; 1.102A {Homo sapiens}
+Probab=98.44  E-value=3.7e-10  Score=47.43  Aligned_cols=32  Identities=100%  Similarity=1.804  Sum_probs=23.1  Template_Neff=12.400
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      .++.+|+...+..+..++.+.....+.|..|.
+T Consensus         5 ~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   36 (38)
+T 4N7F_B            5 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   36 (38)
+T ss_dssp             CCCTTEEEEECTTSCEEEEETTTTEEESSCTT
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEeeCCC
+Confidence            46678887766666777777777778887664
+
+
+No 46
+>5TJ7_A NEDD4-like E3 ubiquitin-protein ligase WWP2; WWP2, HECT Domain, WW2, WWP1; 2.6A {Homo sapiens}
+Probab=98.43  E-value=4.1e-10  Score=74.53  Aligned_cols=31  Identities=52%  Similarity=1.099  Sum_probs=24.2  Template_Neff=9.800
+
+Q 5AHT_A            9 PKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         9 P~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      |.+|+...+..|..||+++.+..+.|..|..
+T Consensus         1 ~~~we~r~~~~g~~y~v~~~~~~t~w~~p~~   31 (447)
+T 5TJ7_A            1 GPGWEKRTDPRGRFYYVDHNTRTTTWQRPTA   31 (447)
+T ss_dssp             --CCCCCBCTTSCBCEEETTTTEEESSCCCH
+T ss_pred             CCCceeeeCCCCCEEeeeCCCCeeeeecCch
+Confidence            5689998888899999999888888876543
+
+
+No 47
+>5TJ7_B NEDD4-like E3 ubiquitin-protein ligase WWP2; WWP2, HECT Domain, WW2, WWP1; 2.6A {Homo sapiens}
+Probab=98.43  E-value=4.1e-10  Score=74.53  Aligned_cols=31  Identities=52%  Similarity=1.099  Sum_probs=24.2  Template_Neff=9.800
+
+Q 5AHT_A            9 PKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         9 P~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      |.+|+...+..|..||+++.+..+.|..|..
+T Consensus         1 ~~~we~r~~~~g~~y~v~~~~~~t~w~~p~~   31 (447)
+T 5TJ7_B            1 GPGWEKRTDPRGRFYYVDHNTRTTTWQRPTA   31 (447)
+T ss_dssp             --CEEEECCSTTCCEEEETTTTEEESSCCCH
+T ss_pred             CCCceeeeCCCCCEEeeeCCCCeeeeecCch
+Confidence            5689998888899999999888888876543
+
+
+No 48
+>2JV4_A Peptidyl-prolyl cis/trans isomerase (E.C.5.2.1.8); PPIASE DOMAIN, WW DOMAIN GROUP; NMR {Emericella nidulans}
+Probab=98.43  E-value=4.1e-10  Score=53.46  Aligned_cols=38  Identities=39%  Similarity=0.824  Sum_probs=27.8  Template_Neff=10.900
+
+Q 5AHT_A            2 SMEQGFLPKGWEVRHAP-NGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         2 s~~~~pLP~GWE~r~~~-~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      +.....++.+|....+. .+..||++..+..++|..|..
+T Consensus         2 ~~~~~~~p~~w~~~~~~~~~~~~~~~~~t~~~~w~~p~~   40 (54)
+T 2JV4_A            2 SMVNTGLPAGWEVRHSNSKNLPYYFNPATRESRWEPPAD   40 (54)
+T ss_dssp             CCCCCCCCSSCCEEECSSSSCEEEEETTTTEEESSCCTT
+T ss_pred             CCCCCCCCCCeEEEEeCCCCeeEEEECCCCeEEecCCCC
+Confidence            34455678889887766 567788888888888887654
+
+
+No 49
+>2NC6_A Pin1 WW Domain; enhanced aromatic sequon, ISOMERASE; HET: 4N2; NMR {N/A}
+Probab=98.41  E-value=5e-10  Score=43.56  Aligned_cols=30  Identities=40%  Similarity=0.888  Sum_probs=18.7  Template_Neff=13.500
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      ++.+|+...+..+..++.+.....+.|..|
+T Consensus         2 ~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p   31 (33)
+T 2NC6_A            2 LPPGWEKRMFANGTVYYFNHITNASQFERP   31 (33)
+T ss_dssp             CSTTEEEEECTTSCEEEEETTTCCEESSCT
+T ss_pred             CCCCcEEEECCCCCEEEEECCCCeEEEeCC
+Confidence            345676665555566776666666777654
+
+
+No 50
+>6JK1_B Dendrin,Transcriptional coactivator YAP1; WW tandem, PY tandem, YAP1; 2.0A {Mus musculus}
+Probab=98.39  E-value=6e-10  Score=60.56  Aligned_cols=30  Identities=47%  Similarity=1.088  Sum_probs=23.5  Template_Neff=10.500
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      ++.+|+...+..+..||++..++.++|+.+
+T Consensus        86 l~~~w~~~~~~~g~~y~~~~~t~~t~w~~p  115 (116)
+T 6JK1_B           86 LPDGWEQAMTQDGEVYYINHKNKTTSWLDP  115 (116)
+T ss_dssp             CCTTEEEEECTTSCEEEEETTTTEEESSCC
+T ss_pred             CCCCeEEEECCCCCEEEEECCCCeEEeeCC
+Confidence            556788777777788998888888888765
+
+
+No 51
+>1I5H_W RNEDD4 WWIII DOMAIN, RENAL BP2; Nedd4, WW domains, ENaC, PY; NMR {Rattus norvegicus} SCOP: b.72.1.1
+Probab=98.38  E-value=6.5e-10  Score=51.08  Aligned_cols=35  Identities=60%  Similarity=1.198  Sum_probs=25.7  Template_Neff=11.400
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+..++..+..|+++.....++|..+...
+T Consensus        10 ~~lp~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~   44 (50)
+T 1I5H_W           10 GPLPPGWEERTHTDGRVFFINHNIKKTQWEDPRMQ   44 (50)
+T ss_dssp             SSCSTTEEEEECTTSCEEEEETTTTEEESSCTTTS
+T ss_pred             CCCCCCeEEEECCCCCEEEEECCCCeEEEeCCccc
+Confidence            34677888776666777888888888888877553
+
+
+No 52
+>5YDY_A WW2 domain and PPxY motif; Hippo pathway, YAP, LATs, WW; NMR {Homo sapiens}
+Probab=98.37  E-value=6.9e-10  Score=54.03  Aligned_cols=33  Identities=48%  Similarity=1.030  Sum_probs=24.0  Template_Neff=10.200
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|+..++..+..++.+.....++|..|..
+T Consensus         3 ~lp~gw~~~~~~~~~~~~~~~~~~~~~w~~P~~   35 (54)
+T 5YDY_A            3 PLPDGWEQAMTQDGEIYYINHKNKTTSWLDPRL   35 (54)
+T ss_dssp             SSSSSEEEECCTTCCCEEEETTTTEEECCCSSS
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEEeCCCC
+Confidence            356778877766667778877777888877654
+
+
+No 53
+>2KQ0_A E3 ubiquitin-protein ligase NEDD4 (E.C.6.3.2.-); WW DOMAIN, COMPLEX, VIRUS L; NMR {Homo sapiens}
+Probab=98.37  E-value=7.1e-10  Score=50.76  Aligned_cols=35  Identities=100%  Similarity=1.756  Sum_probs=25.9  Template_Neff=11.400
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLKI   41 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~~   41 (43)
+                      .++.+|+...+..+..++.+.....++|..+...+
+T Consensus        12 ~~p~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~~   46 (49)
+T 2KQ0_A           12 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLKI   46 (49)
+T ss_dssp             CCCTTEEEEEETTTEEEEEETTTTEEESSCTTTCC
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCcEEEeCCCCCC
+Confidence            46778887766667778888888888888876543
+
+
+No 54
+>2YSH_A Growth-arrest-specific protein 7; GAS-7, WW domain, Structural Genomics; NMR {Homo sapiens} SCOP: k.22.1.1
+Probab=98.34  E-value=9.1e-10  Score=46.84  Aligned_cols=34  Identities=38%  Similarity=0.909  Sum_probs=23.1  Template_Neff=12.300
+
+Q 5AHT_A            5 QGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         5 ~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ...++..|+...+..+..|+.+......+|..|.
+T Consensus         5 ~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   38 (40)
+T 2YSH_A            5 SSGLPPGWQSYLSPQGRRYYVNTTTNETTWERPS   38 (40)
+T ss_dssp             CSSCCTTCEEEECTTSCEEEECSSSCCEESSSCC
+T ss_pred             CCCCCCCeEEEECCCCCEEEEECCCCeEEEeCCC
+Confidence            3456677887666666677777777777776654
+
+
+No 55
+>6J1Y_B NEDD4-like E3 ubiquitin-protein ligase WWP1; E3 ligase, Semi-open conformation, Auto-inhibition; 2.55A {Homo sapiens}
+Probab=98.34  E-value=9.1e-10  Score=74.77  Aligned_cols=32  Identities=56%  Similarity=1.127  Sum_probs=19.4  Template_Neff=9.500
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ++.+|+...+..+..||+++.++.+.|..|..
+T Consensus        95 lp~~W~~~~~~~g~~yy~n~~t~~t~w~~P~~  126 (519)
+T 6J1Y_B           95 LPEGWEIRYTREGVRYFVDHNTRTTTFKDPRN  126 (519)
+T ss_dssp             CCTTEEEEECTTCCEEEEETTTTEEESSCTTC
+T ss_pred             CCCCCceeeCCCCcEEEeeCCCCcccccCCCC
+Confidence            44566665555566666666666666665543
+
+
+No 56
+>1E0M_A WWPROTOTYPE; SH3 PROTOTYPE, WWPROTOTYPE, PROTEIN DESIGN; NMR {SYNTHETIC CONSTRUCT} SCOP: k.22.1.1
+Probab=98.34  E-value=9.7e-10  Score=44.68  Aligned_cols=32  Identities=50%  Similarity=1.079  Sum_probs=21.4  Template_Neff=13.000
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      .++.+|+...+..+..++.+......+|..+.
+T Consensus         3 ~~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   34 (37)
+T 1E0M_A            3 GLPPGWDEYKTHNGKTYYYNHNTKTSTWTDPR   34 (37)
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEEeCCC
+Confidence            35667877665556667777777777777654
+
+
+No 57
+>2YSD_A Membrane-associated guanylate kinase, WW and; MAGI1, WW domain, Structural Genomics; NMR {Homo sapiens} SCOP: k.22.1.1
+Probab=98.33  E-value=1e-09  Score=53.19  Aligned_cols=35  Identities=57%  Similarity=1.040  Sum_probs=25.9  Template_Neff=10.600
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..++.+|+..++..+..|+++.......|.++...
+T Consensus        13 ~~lp~~w~~~~~~~~~~~~~~~~~~~~~~~~p~~~   47 (57)
+T 2YSD_A           13 GPLPENWEMAYTENGEVYFIDHNTKTTSWLDPRCL   47 (57)
+T ss_dssp             CSCCSSEEEEECSSCCEEEEETTTTEEESSCTTTC
+T ss_pred             CCCCCCeEEEECCCCCEEEEECCCCeEEEeCcccc
+Confidence            34677898877766778888887788888876543
+
+
+No 58
+>2M8J_A Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1; Pin1, WW domain, phospho mimic; NMR {Homo sapiens}
+Probab=98.33  E-value=1.1e-09  Score=47.62  Aligned_cols=33  Identities=39%  Similarity=0.916  Sum_probs=23.0  Template_Neff=12.100
+
+Q 5AHT_A            6 GFLPKGWEVRHA-PNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         6 ~pLP~GWE~r~~-~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ..++.+|+...+ ..+..|+++.....++|..|.
+T Consensus         9 ~~~p~~w~~~~~~~~~~~~~~~~~~~~~~w~~p~   42 (43)
+T 2M8J_A            9 EKLPPGWEKRMERSSGRVYYFNHITNASQWERPS   42 (43)
+T ss_dssp             SSCCTTEEEEECTTTCCEEEEETTTTEEESSCCC
+T ss_pred             cCCCCCcEEEEeCCCCcEEEEECCCCeEEEeCCC
+Confidence            346778887776 456677777777777777653
+
+
+No 59
+>1O6W_A PRE-MRNA PROCESSING PROTEIN PRP40; WW DOMAIN PAIR, NUCLEAR PROTEIN; NMR {SACCHAROMYCES CEREVISIAE} SCOP: b.72.1.1
+Probab=98.32  E-value=1.1e-09  Score=52.79  Aligned_cols=33  Identities=21%  Similarity=0.722  Sum_probs=24.8  Template_Neff=11.900
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ++.+|+...+..+..||++..+..++|..|...
+T Consensus        41 ~~~~w~~~~~~~~~~y~~n~~t~~~~~~~p~~~   73 (75)
+T 1O6W_A           41 RENGWKAAKTADGKVYYYNPTTRETSWTIPAFE   73 (75)
+T ss_dssp             HHHTCEEEECTTCCEEEEETTTTEEESSCCCCC
+T ss_pred             hcCccEEEECCCCCEEEEECCCCeEEEeCCccc
+Confidence            455777766666778888888888899887654
+
+
+No 60
+>6RSS_A NEDD4-like E3 ubiquitin-protein ligase WWP2; Three-stranded antiparallel beta-sheet, PPxY motif; NMR {Homo sapiens}
+Probab=98.32  E-value=1.1e-09  Score=63.80  Aligned_cols=31  Identities=10%  Similarity=0.109  Sum_probs=23.5  Template_Neff=7.900
+
+Q 5AHT_A            9 PKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         9 P~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ...|+......+..||+++.+..++|..|..
+T Consensus        21 ~~~~~~~~~~~g~~yY~nh~t~~ttW~~P~~   51 (109)
+T 6RSS_A           21 TEAVDAATAEKVFKQYANDNGVDGEWTYDDA   51 (109)
+T ss_dssp             EEESCHHHHHHHHHHHHHTTTCCCEEEEETT
+T ss_pred             HHHHHHHhcCCceeEEeeCCCCccEEEcCCC
+Confidence            3455555556788999999999999988754
+
+
+No 61
+>1WR7_A Nedd4-2; all-beta, LIGASE; NMR {Mus musculus}
+Probab=98.31  E-value=1.2e-09  Score=47.03  Aligned_cols=32  Identities=91%  Similarity=1.660  Sum_probs=22.8  Template_Neff=12.100
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      .++.+|+...+..+..++.+..+..++|..+.
+T Consensus         8 ~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   39 (41)
+T 1WR7_A            8 FLPPGWEMRIAPNGRPFFIDHNTKTTTWEDPR   39 (41)
+T ss_dssp             SSCTTEEEEECTTSCEEEEETTTTEEESSCGG
+T ss_pred             CCCCCeEEEECCCCCEEEEECCCCcEEEeCCC
+Confidence            45667887766666777777777778887654
+
+
+No 62
+>5VTJ_A Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1; beta amino acid, WW domain; HET: SO4; 1.5A {N/A}
+Probab=98.31  E-value=1.2e-09  Score=42.85  Aligned_cols=30  Identities=43%  Similarity=1.062  Sum_probs=18.8  Template_Neff=13.400
+
+Q 5AHT_A            8 LPKGWEVRHA-PNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         8 LP~GWE~r~~-~~Gr~yfvdH~trtTtwedP   37 (43)
+                      ++.+|+...+ ..+..++++.....+.|..|
+T Consensus         2 ~p~~w~~~~~~~~~~~~~~~~~~~~~~~~~p   32 (34)
+T 5VTJ_A            2 LPPGWEKRMSRXSGRVYYFNHITNASQWERP   32 (34)
+T ss_dssp             CCTTEEEEEETTTTEEEEEETTTCCEESSCC
+T ss_pred             CCCCeEEEEcCCCCcEEEEeCCCCeEEEeCC
+Confidence            4556776666 34566676666666777654
+
+
+No 63
+>5VTK_A Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1; WW domain, beta amino acid; 1.99A {N/A}
+Probab=98.30  E-value=1.3e-09  Score=42.74  Aligned_cols=30  Identities=43%  Similarity=1.062  Sum_probs=18.7  Template_Neff=13.400
+
+Q 5AHT_A            8 LPKGWEVRHA-PNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         8 LP~GWE~r~~-~~Gr~yfvdH~trtTtwedP   37 (43)
+                      ++.+|+...+ ..+..++++.....+.|..|
+T Consensus         2 ~p~~w~~~~~~~~~~~~~~~~~~~~~~~~~p   32 (34)
+T 5VTK_A            2 LPPGWEKRMSRXSGRVYYFNHITNASQWERP   32 (34)
+T ss_dssp             CCTTEEEEECTTTCCEEEEETTTCCEESSCC
+T ss_pred             CCCCeEEEEcCCCCcEEEEeCCCCeEEEeCC
+Confidence            3556776665 34566676666666777654
+
+
+No 64
+>2YSB_A Salvador homolog 1 protein; Salvador, WW domain, Structural Genomics; NMR {Mus musculus} SCOP: k.22.1.1
+Probab=98.30  E-value=1.4e-09  Score=49.36  Aligned_cols=33  Identities=48%  Similarity=0.947  Sum_probs=23.9  Template_Neff=11.600
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|+..++..+..++.+......+|..+..
+T Consensus        11 ~~~~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~   43 (49)
+T 2YSB_A           11 PLPPGWSVDWTMRGRKYYIDHNTNTTHWSHPLE   43 (49)
+T ss_dssp             CCCTTEEEEECSSSCEEEEETTTTEEESSCTTT
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEEcCCCC
+Confidence            466788877766666777777777888877654
+
+
+No 65
+>6JJZ_B Membrane-associated guanylate kinase, WW and; WW tandem, PY tandem, MAGI2; 1.65A {Mus musculus}
+Probab=98.29  E-value=1.5e-09  Score=57.03  Aligned_cols=33  Identities=55%  Similarity=1.036  Sum_probs=23.6  Template_Neff=10.900
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ..++.+|+...+..+..|+.+.....++|..|.
+T Consensus        13 ~~~p~~w~~~~~~~g~~~~~~~~~~~~~~~~P~   45 (102)
+T 6JJZ_B           13 DPLPDNWEMAYTEKGEVYFIDHNTKTTSWLDPR   45 (102)
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCeEEEeCCC
+Confidence            346778988777677778877777777776654
+
+
+No 66
+>3OLM_A E3 ubiquitin-protein ligase RSP5 (E.C.6.3.2.-); ubiquitin E3 ligase, LIGASE; 2.495A {Saccharomyces cerevisiae}
+Probab=98.27  E-value=1.8e-09  Score=71.44  Aligned_cols=35  Identities=63%  Similarity=1.199  Sum_probs=28.4  Template_Neff=9.700
+
+Q 5AHT_A            5 QGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         5 ~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ...+|.+|+...+..+..||+++..+.+.|..|..
+T Consensus         6 ~~~lp~gwe~~~~~~g~~~~v~~~~~~t~w~~p~~   40 (429)
+T 3OLM_A            6 LGPLPSGWEMRLTNTARVYFVDHNTKTTTWDDPRL   40 (429)
+T ss_dssp             CCCCCTTCCCCCSSCCCCCEEETTTTEEESSCTTS
+T ss_pred             CCCCCCCceEEECCCCCEEEEeCCCCeeeccCCCC
+Confidence            45678899998877788899999888888887654
+
+
+No 67
+>5CQ2_A E3 ubiquitin-protein ligase Itchy homolog; structural genomics, Structural Genomics Consortium; HET: UNX; 1.4A {Homo sapiens}
+Probab=98.26  E-value=1.9e-09  Score=53.68  Aligned_cols=33  Identities=55%  Similarity=1.129  Sum_probs=21.2  Template_Neff=11.800
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ++.+|+......+..|++++....+.|..|...
+T Consensus        49 ~~~~~~~~~~~~~~~y~~~~~~~~~~w~~p~~~   81 (90)
+T 5CQ2_A           49 LPEGWEMRFTVDGIPYFVDHNRRTTTYIDPRTG   81 (90)
+T ss_dssp             CCTTEEEEECTTSCEEEEETTTTEEESBCTTTS
+T ss_pred             CCCCcEEEECCCCCEEEEECCCCeEEEeCCCCC
+Confidence            344566555555566777777777777776543
+
+
+No 68
+>6JJZ_A Membrane-associated guanylate kinase, WW and; WW tandem, PY tandem, MAGI2; 1.65A {Mus musculus}
+Probab=98.25  E-value=2.2e-09  Score=56.43  Aligned_cols=33  Identities=55%  Similarity=1.036  Sum_probs=23.6  Template_Neff=10.900
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ..++.+|+...+..+..||++.....++|..|.
+T Consensus        13 ~~~p~~W~~~~~~~g~~~~~~~~~~~~~~~~p~   45 (102)
+T 6JJZ_A           13 DPLPDNWEMAYTEKGEVYFIDHNTKTTSWLDPR   45 (102)
+T ss_dssp             CCCCTTEEEEECTTCCEEEEETTTTEEESSCGG
+T ss_pred             CCCCCCcEEEECCCCCEEEEECCCCeEEEeChH
+Confidence            346778988776677778877777777776654
+
+
+No 69
+>1YIU_A Itchy E3 ubiquitin protein ligase; WW domain, LIGASE; NMR {Mus musculus}
+Probab=98.22  E-value=2.7e-09  Score=43.50  Aligned_cols=31  Identities=58%  Similarity=1.204  Sum_probs=20.9  Template_Neff=12.900
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      .++.+|+...+..+..++.+.....++|..+
+T Consensus         5 ~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p   35 (37)
+T 1YIU_A            5 PLPPGWEKRTDSNGRVYFVNHNTRITQWEDP   35 (37)
+T ss_dssp             CCCTTCCEEECSSSCEEEEETTTTEEECSCS
+T ss_pred             CCCCCeEEEECCCCCEEEEECCCCcEEEeCC
+Confidence            4666787766655666777766667777654
+
+
+No 70
+>2YSI_A Transcription elongation regulator 1; Transcription elongation regulator 1, CA150; NMR {Mus musculus} SCOP: k.22.1.1
+Probab=98.22  E-value=2.8e-09  Score=46.06  Aligned_cols=32  Identities=19%  Similarity=0.617  Sum_probs=20.1  Template_Neff=11.900
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      .++..|+...+..+..++++.....++|+.|.
+T Consensus         7 ~~~~~w~~~~~~~~~~~~~~~~~~~~~w~~p~   38 (40)
+T 2YSI_A            7 GTEEIWVENKTPDGKVYYYNARTRESAWTKPD   38 (40)
+T ss_dssp             ----CCCCSECTTSCEEEEETTTCCEESSCCS
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEEeCCC
+Confidence            35567877666666677777777778887653
+
+
+No 71
+>1I8H_B MICROTUBULE-ASSOCIATED PROTEIN TAU, PEPTIDYL-PROLYL CIS-TRANS; CYTOSKELETON, NUCLEAR PROTEIN, MEMBRANE PROTEIN-ISOMERASE; HET: TPO; NMR {N/A} SCOP: b.72.1.1
+Probab=98.20  E-value=3.3e-09  Score=43.10  Aligned_cols=33  Identities=39%  Similarity=0.932  Sum_probs=20.4  Template_Neff=13.200
+
+Q 5AHT_A            8 LPKGWEVRHA-PNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         8 LP~GWE~r~~-~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ++.+|+...+ ..+..++.+.....+.|..+...
+T Consensus         2 ~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~   35 (39)
+T 1I8H_B            2 LPPGWEKRMSRSSGRVYYFNHITNASQWERPSGN   35 (39)
+T ss_dssp             CCTTEECCCCSSSSCCCEEETTTTEEESSCCCCC
+T ss_pred             CCCCcEEEEeCCCCcEEEEECCCCeEEEeCCCCC
+Confidence            3456776665 34566666666667777766543
+
+
+No 72
+>2YSC_A Amyloid beta A4 precursor protein-binding; Fe65-like protein 2, WW domain; NMR {Homo sapiens} SCOP: b.72.1.1
+Probab=98.20  E-value=3.4e-09  Score=45.40  Aligned_cols=32  Identities=31%  Similarity=0.783  Sum_probs=21.3  Template_Neff=12.000
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ..++.+|+...+..+ .++.+.....+.|..|.
+T Consensus         7 ~~~p~~w~~~~~~~~-~~~~~~~~~~~~~~~p~   38 (39)
+T 2YSC_A            7 GGLPPGWRKIHDAAG-TYYWHVPSGSTQWQRPT   38 (39)
+T ss_dssp             CCCCTTEEEEEETTE-EEEEESSSCCEESSCCC
+T ss_pred             CCCCCCcEEEECCCc-cEEEeCCCCcEEEeCCC
+Confidence            346778887666555 67776666677776653
+
+
+No 73
+>1YWI_A Formin-binding protein 3; WW domain, Class II, Proline-rich; NMR {Homo sapiens} SCOP: b.72.1.1
+Probab=98.20  E-value=3.4e-09  Score=45.81  Aligned_cols=31  Identities=32%  Similarity=0.813  Sum_probs=20.0  Template_Neff=12.000
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      .++.+|....+..+..||++..+...+|..+
+T Consensus         9 ~~~~~w~~~~~~~g~~~~~~~~~~~~~w~~p   39 (41)
+T 1YWI_A            9 SAKSMWTEHKSPDGRTYYYNTETKQSTWEKP   39 (41)
+T ss_dssp             ---CCEEEEEETTTEEEEEETTTTEEEESCC
+T ss_pred             cccCCeEEEECCCCCEEEEECCCCEEEEeCC
+Confidence            4566787766666777887777777777654
+
+
+No 74
+>2L4J_A Yes Associated Protein (YAP); WW domain, YAP, Medaka, TRANSCRIPTION; NMR {Oryzias latipes}
+Probab=98.17  E-value=4.5e-09  Score=46.40  Aligned_cols=33  Identities=52%  Similarity=1.094  Sum_probs=23.2  Template_Neff=12.000
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|+...+..+..++.+.......|..+..
+T Consensus        11 ~~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~~   43 (46)
+T 2L4J_A           11 PLPEGWEQAITPEGEIYYINHKNKTTSWLDPRL   43 (46)
+T ss_dssp             CCCTTCEEEECTTSCEEEEETTTTEEECSCCSS
+T ss_pred             CCCCCeEEEECCCCCEEEEECCCCeEEeeCCCc
+Confidence            466778876665566777777777788876654
+
+
+No 75
+>2N4S_A Transcription elongation regulator 1; WW domain, TRANSCRIPTION; NMR {Homo sapiens}
+Probab=98.14  E-value=5.4e-09  Score=43.76  Aligned_cols=31  Identities=23%  Similarity=0.731  Sum_probs=20.9  Template_Neff=12.300
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ++.+|....+..+..++.+.......|..|.
+T Consensus         4 ~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   34 (37)
+T 2N4S_A            4 AVSEWTEYKTADGKTYYYNNRTEESTWEKPQ   34 (37)
+T ss_dssp             SCSSEEEEEETTTEEEEEETTTTEEESSCCG
+T ss_pred             CcCCcEEEECCCCCEEEEECCCCEEEEeCCc
+Confidence            4567876665556667777777777777654
+
+
+No 76
+>2L5F_A Pre-mRNA-processing factor 40 homolog A; 2WW, HYPA, FBP11, PROTEIN BINDING; NMR {Homo sapiens}
+Probab=98.13  E-value=5.9e-09  Score=54.34  Aligned_cols=34  Identities=29%  Similarity=0.680  Sum_probs=25.0  Template_Neff=10.700
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ..++.+|....+..+..||++..+..+.|..|..
+T Consensus        10 ~~~p~~W~~~~~~~g~~yy~n~~t~~s~w~~P~~   43 (92)
+T 2L5F_A           10 SGAKSMWTEHKSPDGRTYYYNTETKQSTWEKPDD   43 (92)
+T ss_dssp             TBTTTTEEEEECTTSCEEEEETTTTEEESSCSGG
+T ss_pred             cCCccceEEEECCCCCEEEEECCCCeEEeeCCCc
+Confidence            3466788877766778888888877888876653
+
+
+No 77
+>4LCD_A E3 ubiquitin-protein ligase RSP5 (E.C.6.3.2.-); Ligase, E3, Rsp5, NEDD4, Ubiquitin; 3.1A {Saccharomyces cerevisiae}
+Probab=98.13  E-value=6.1e-09  Score=68.80  Aligned_cols=35  Identities=63%  Similarity=1.199  Sum_probs=28.2  Template_Neff=9.800
+
+Q 5AHT_A            5 QGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         5 ~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ...+|.+|+...+..+..|+.++..+.+.|.+|..
+T Consensus         9 ~~~lp~~w~~~~~~~g~~~~~~~~~~~t~~~~p~~   43 (432)
+T 4LCD_A            9 LGPLPSGWEMRLTNTARVYFVDHNTKTTTWDDPRL   43 (432)
+T ss_dssp             SCCCCTTEEEECCTTCCCEEEETTTTEEESSCTTS
+T ss_pred             CCCCCCCcEEEECCCCCEEEEeCCCCeeeccCCCC
+Confidence            34578899988877788899998888888887654
+
+
+No 78
+>5DWS_A E3 ubiquitin-protein ligase Itchy homolog; structural genomics, Structural Genomics Consortium; HET: UNX; 1.65A {Homo sapiens}
+Probab=98.12  E-value=6.8e-09  Score=46.57  Aligned_cols=33  Identities=58%  Similarity=1.157  Sum_probs=23.9  Template_Neff=11.700
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|+..++..+..|+.+.....++|..|..
+T Consensus        12 ~~p~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~   44 (47)
+T 5DWS_A           12 PLPPGWEKRTDSNGRVYFVNHNTRITQWEDPRS   44 (47)
+T ss_dssp             CCCTTEEEEECTTCCEEEEETTTTEEESSCGGG
+T ss_pred             CCCCCeEEEECCCCCEEEEECCCCcEEEeCCCC
+Confidence            466778877666667777777777888877654
+
+
+No 79
+>5DWS_C E3 ubiquitin-protein ligase Itchy homolog; structural genomics, Structural Genomics Consortium; HET: UNX; 1.65A {Homo sapiens}
+Probab=98.12  E-value=6.8e-09  Score=46.57  Aligned_cols=33  Identities=58%  Similarity=1.157  Sum_probs=23.9  Template_Neff=11.700
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|+..++..+..|+.+.....++|..|..
+T Consensus        12 ~~p~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~   44 (47)
+T 5DWS_C           12 PLPPGWEKRTDSNGRVYFVNHNTRITQWEDPRS   44 (47)
+T ss_dssp             CCCTTEEEEECTTSCEEEEETTTTEEESSCGGG
+T ss_pred             CCCCCeEEEECCCCCEEEEECCCCcEEEeCCCC
+Confidence            466778877666667777777777888877654
+
+
+No 80
+>2JX8_A Phosphorylated CTD-interacting factor 1; protein fragment, WW domain, triple-standed; NMR {Homo sapiens}
+Probab=98.11  E-value=7.2e-09  Score=49.21  Aligned_cols=33  Identities=30%  Similarity=0.754  Sum_probs=24.5  Template_Neff=10.700
+
+Q 5AHT_A            7 FLPKGWEVRHAP-NGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~-~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|+...+. .+..||++..+..++|..|..
+T Consensus        10 ~~p~~w~~~~~~~~~~~~~~~~~t~~~~w~~P~~   43 (52)
+T 2JX8_A           10 LVHAGWEKCWSRRENRPYYFNRFTNQSLWEMPVL   43 (52)
+T ss_dssp             HHHHTCCEEEETTTTEEEEEETTTTEEESSCCCC
+T ss_pred             hCCCCeEEEEeCCCCeEEEEECCCCeEEEeCCCC
+Confidence            467788887776 567788888888888877653
+
+
+No 81
+>2KXQ_A E3 ubiquitin-protein ligase SMURF2, S7PY; WW, PY motif, Smurf2, TGF-beta; NMR {Homo sapiens}
+Probab=98.10  E-value=7.6e-09  Score=51.33  Aligned_cols=33  Identities=55%  Similarity=1.188  Sum_probs=23.8  Template_Neff=11.900
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ++.+|+...+..+..|++++.+..++|..+...
+T Consensus        56 ~~~~w~~~~~~~~~~~~~~~~~~~~~w~~p~~~   88 (90)
+T 2KXQ_A           56 LPPGWEIRNTATGRVYFVDHNNRTTQFTDPRLS   88 (90)
+T ss_dssp             CCSSCCEEECTTSCEEEEETTTTEEESSCTTTS
+T ss_pred             CCCCeEEEECCCCCEEEEECCCCeEEeeCCCCC
+Confidence            455677666666677888888888888877653
+
+
+No 82
+>4E5R_A MGC78846 protein; Dimerization, WW motif, domain swapping; 1.9A {Xenopus laevis}
+Probab=98.04  E-value=1.3e-08  Score=49.87  Aligned_cols=33  Identities=30%  Similarity=0.792  Sum_probs=23.0  Template_Neff=10.200
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|....+..+..||++.....++|..+..
+T Consensus         5 ~lp~~w~~~~~~~g~~y~~~~~~~~~~w~~p~~   37 (56)
+T 4E5R_A            5 PLPDGWIMTFHNSGLPVYLHRETRVVTWSRPYF   37 (56)
+T ss_dssp             CCCTTEEEEECTTSCEEEEETTTTEEESSCCCC
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEEeCCCc
+Confidence            466778876665667778777777777776543
+
+
+No 83
+>1NMV_A Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1; PPIase domain, WW domain group; NMR {Homo sapiens} SCOP: d.26.1.1, b.72.1.1
+Probab=98.04  E-value=1.3e-08  Score=58.16  Aligned_cols=35  Identities=37%  Similarity=0.848  Sum_probs=24.2  Template_Neff=10.500
+
+Q 5AHT_A            5 QGFLPKGWEVRHA-PNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         5 ~~pLP~GWE~r~~-~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ...+|.+|+...+ ..+..+|++.....+.|..|..
+T Consensus         4 ~~~lp~~w~~~~~~~~g~~~y~~~~~~~~~w~~p~~   39 (163)
+T 1NMV_A            4 EEKLPPGWEKRMSRSSGRVYYFNHITNASQWERPSG   39 (163)
+T ss_dssp             CCSCCTTEEEEECTTSCCEEEEETTTTEEESS--C-
+T ss_pred             CCCCCCCcEEEEcCCCCcEEEEECCCCeEEEECCCC
+Confidence            3567888988776 4677888888877888877643
+
+
+No 84
+>1PIN_A PEPTIDYL-PROLYL CIS-TRANS ISOMERASE (E.C.5.2.1.8), 2-(2-{2-[2-(2-METHOXY-ETHOXY)-ETHOXY]-ETHOXY}-ETHOXY)-ETHANOL; PEPTIDYL-PROLYL CIS-TRANS ISOMERASE, ROTAMASE, COMPLEX; HET: 1PG; 1.35A {Homo sapiens} SCOP: d.26.1.1, b.72.1.1
+Probab=98.04  E-value=1.3e-08  Score=58.16  Aligned_cols=35  Identities=37%  Similarity=0.848  Sum_probs=23.3  Template_Neff=10.500
+
+Q 5AHT_A            5 QGFLPKGWEVRHA-PNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         5 ~~pLP~GWE~r~~-~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ...+|.+|+...+ ..+..+|++.....+.|..|..
+T Consensus         4 ~~~lp~~w~~~~~~~~g~~~y~~~~~~~~~w~~p~~   39 (163)
+T 1PIN_A            4 EEKLPPGWEKRMSRSSGRVYYFNHITNASQWERPSG   39 (163)
+T ss_dssp             --CCCTTEEEEECTTSCCEEEEETTTCCEESS--C-
+T ss_pred             CCCCCCCcEEEEcCCCCcEEEEECCCCeEEEECCCC
+Confidence            3567888988776 4677888888877888877643
+
+
+No 85
+>1TK7_A CG4244-PB; WW domain, Notch, SIGNALING PROTEIN; NMR {Drosophila melanogaster} SCOP: b.72.1.1
+Probab=98.02  E-value=1.4e-08  Score=49.74  Aligned_cols=30  Identities=60%  Similarity=1.207  Sum_probs=20.8  Template_Neff=12.100
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      ++.+|+...+..+..||++..+..+.|..+
+T Consensus        57 ~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p   86 (88)
+T 1TK7_A           57 LPPGWEIRYTAAGERFFVDHNTRRTTFEDP   86 (88)
+T ss_dssp             SCSSCEEEEETTTEEEEEETTTTEEESSSS
+T ss_pred             CCCCcEEEECCCCCEEEEECCCCeEeecCC
+Confidence            445677666656667788777777888765
+
+
+No 86
+>2LTY_A E3 ubiquitin-protein ligase NEDD4-like, Mothers; WW, NEDD4L, SMAD7, PROTEIN BINDING-PEPTIDE; NMR {Homo sapiens}
+Probab=98.02  E-value=1.5e-08  Score=39.29  Aligned_cols=30  Identities=50%  Similarity=1.211  Sum_probs=17.1  Template_Neff=13.600
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      ++.+|+...+..+..++.+.......|..+
+T Consensus         3 ~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p   32 (34)
+T 2LTY_A            3 LPSGWEERKDAKGRTYYVNHNNRTTTWTRP   32 (34)
+T ss_dssp             CCTTEEEEEETTTEEEEEETTTTEEESSCC
+T ss_pred             CCCCeEEEECCCCCEEEEECCCCeEEEeCC
+Confidence            345676655554555666555555666543
+
+
+No 87
+>2JXW_A WW domain-binding protein 4; WW domain containing protein, WW; NMR {Homo sapiens}
+Probab=97.99  E-value=1.9e-08  Score=48.84  Aligned_cols=31  Identities=19%  Similarity=0.499  Sum_probs=20.9  Template_Neff=11.700
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ++.+|+...+..+..+|.+..+..+.|..|.
+T Consensus         3 ~~~~w~~~~~~~g~~~~~~~~~~~~~w~~p~   33 (75)
+T 2JXW_A            3 SKGRWVEGITSEGYHYYYDLISGASQWEKPE   33 (75)
+T ss_dssp             CCCCEEEEEETTTEEEEEETTTTEEECSCCS
+T ss_pred             CcCCcEEEECCCCCEEEEECCCCeEEEeCCC
+Confidence            4567776665566777777776677776654
+
+
+No 88
+>6J1X_B NEDD4-like E3 ubiquitin-protein ligase WWP1; E3 ligase, close conformation, autoinhibition; HET: GOL; 2.3A {Homo sapiens}
+Probab=97.98  E-value=2.1e-08  Score=67.99  Aligned_cols=34  Identities=47%  Similarity=0.968  Sum_probs=27.8  Template_Neff=9.900
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ..++.+|+...+..+..||+++.+..++|..|..
+T Consensus         9 ~~~p~~W~~~~d~~g~~~y~~~~t~~~~w~~P~~   42 (550)
+T 6J1X_B            9 QPLPPGWERRVDDRRRVYYVDHNTRTTTWQRPTM   42 (550)
+T ss_dssp             CCCCTTEEEEECTTSCEEEEETTTCCEESSCCCH
+T ss_pred             CCCCCCcEEEeCCCCCeeEEeCCCCeeeccCCCh
+Confidence            4578899988887888899998888899987753
+
+
+No 89
+>2F21_A Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1; WW domain, beta-sheet, ISOMERASE; HET: 1PE; 1.5A {Homo sapiens} SCOP: d.26.1.1, b.72.1.1
+Probab=97.97  E-value=2.2e-08  Score=57.16  Aligned_cols=35  Identities=37%  Similarity=0.860  Sum_probs=24.7  Template_Neff=10.500
+
+Q 5AHT_A            5 QGFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         5 ~~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ...+|.+|+..++..+..+|++.....+.|..|..
+T Consensus         4 ~~~lp~~w~~~~~~~g~~~~~~~~~~~~~w~~p~~   38 (162)
+T 2F21_A            4 EEKLPPGWEKRMSADGRVYYFNHITNASQWERPSG   38 (162)
+T ss_dssp             CCCCCTTEEEEECTTSCEEEEETTTCCEESSCS--
+T ss_pred             CCCCCCCeEEEECCCCCEEEEECCCCeeeeeCCCC
+Confidence            34578889887776677788877777777877654
+
+
+No 90
+>2E45_A Amyloid beta A4 precursor protein-binding; triple-stranded beta-sheet, PROTEIN BINDING; NMR {Homo sapiens} SCOP: b.72.1.1
+Probab=97.96  E-value=2.2e-08  Score=49.70  Aligned_cols=32  Identities=34%  Similarity=0.664  Sum_probs=23.5  Template_Neff=9.700
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|....+..+ .|+++.....++|..|..
+T Consensus        19 ~lp~~w~~~~~~~g-~y~~~~~~~~t~w~~P~~   50 (55)
+T 2E45_A           19 DLPAGWMRVQDTSG-TYYWHIPTGTTQWEPPGR   50 (55)
+T ss_pred             CCCCCcEEEECCCc-cEEEeCCCCeEEEeCCCC
+Confidence            46667877666556 888888888888887654
+
+
+No 91
+>6JK1_A Dendrin,Transcriptional coactivator YAP1; WW tandem, PY tandem, YAP1; 2.0A {Mus musculus}
+Probab=97.94  E-value=2.7e-08  Score=54.12  Aligned_cols=32  Identities=50%  Similarity=1.158  Sum_probs=21.7  Template_Neff=10.500
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      .++.+|+...+..+..+|++.....+.|..+.
+T Consensus        26 ~~~~~w~~~~~~~g~~~y~~~~~~~~~~~~p~   57 (116)
+T 6JK1_A           26 PLPAGWEMAKTSSGQRYFLNHNDQTTTWQDPR   57 (116)
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEecCCc
+Confidence            46677877766667777777766666666543
+
+
+No 92
+>1O6W_A PRE-MRNA PROCESSING PROTEIN PRP40; WW DOMAIN PAIR, NUCLEAR PROTEIN; NMR {SACCHAROMYCES CEREVISIAE} SCOP: b.72.1.1
+Probab=97.94  E-value=2.8e-08  Score=47.86  Aligned_cols=29  Identities=31%  Similarity=0.753  Sum_probs=19.2  Template_Neff=11.900
+
+Q 5AHT_A           10 KGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus        10 ~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      .+|+...+..+..||.+..+..+.|..|.
+T Consensus         2 ~~w~~~~~~~g~~~y~~~~~~~~~~~~P~   30 (75)
+T 1O6W_A            2 SIWKEAKDASGRIYYYNTLTKKSTWEKPK   30 (75)
+T ss_dssp             CCEEEEECTTCCEEEEETTTTEEESSCCH
+T ss_pred             CCeEEEECCCCCEEEEECCCCeEEEeCCh
+Confidence            45666555556777777777777776654
+
+
+No 93
+>2MDC_A Histone-lysine N-methyltransferase SETD2 (E.C.2.1.1.43); WW domain, HYPB, Transferase; NMR {Homo sapiens}
+Probab=97.93  E-value=2.8e-08  Score=44.30  Aligned_cols=33  Identities=27%  Similarity=0.783  Sum_probs=22.4  Template_Neff=11.900
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|....+..+..++++......+|..|..
+T Consensus         8 ~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p~~   40 (48)
+T 2MDC_A            8 VLPPNWKTARDPEGKIYYYHVITRQTQWDPPTW   40 (48)
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCcEEecCCCC
+Confidence            356678776665566677777777777876654
+
+
+No 94
+>6J1X_B NEDD4-like E3 ubiquitin-protein ligase WWP1; E3 ligase, close conformation, autoinhibition; HET: GOL; 2.3A {Homo sapiens}
+Probab=97.91  E-value=3.4e-08  Score=66.97  Aligned_cols=31  Identities=58%  Similarity=1.195  Sum_probs=18.8  Template_Neff=9.900
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ++.+|+...+..+..||+++.++.+.|..|.
+T Consensus       126 ~~~gw~~~~~~~g~~~y~n~~t~~t~~~~p~  156 (550)
+T 6J1X_B          126 LPEGWEIRYTREGVRYFVDHNTRTTTFKDPR  156 (550)
+T ss_dssp             CCTTEEEEECTTSCEEEEETTTTEEESBCTT
+T ss_pred             CCCCcceeEcCCCcEEEEeCCCCeeeccCcc
+Confidence            3456666555556666666666666665543
+
+
+No 95
+>1YMZ_A CC45; ARTIFICIAL PROTEIN, COMPUTATIONAL DESIGN, UNKNOWN; NMR {N/A} SCOP: k.22.1.1
+Probab=97.86  E-value=5e-08  Score=41.16  Aligned_cols=33  Identities=42%  Similarity=0.884  Sum_probs=22.0  Template_Neff=12.700
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|....+..+..++.+.......|..+..
+T Consensus         8 ~~p~~w~~~~~~~~~~~~~~~~~~~~~~~~p~~   40 (43)
+T 1YMZ_A            8 PLPPGWERRTDVEGKVYYFNVRTLTTTWERPTI   40 (43)
+T ss_dssp             CCCSSEEEEECTTSCEEEEETTTTEEESSCCCS
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEEeCCCc
+Confidence            456678776665566677776666777776643
+
+
+No 96
+>2KYK_A E3 ubiquitin-protein ligase Itchy homolog; LMP2A, PY motif, Ubiquitin-protein ligase; NMR {Homo sapiens}
+Probab=97.81  E-value=6.8e-08  Score=39.83  Aligned_cols=32  Identities=50%  Similarity=0.981  Sum_probs=19.5  Template_Neff=12.800
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      .++.+|+..++..+..++.+......+|..+.
+T Consensus         6 ~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   37 (39)
+T 2KYK_A            6 PLPPGWERRVDNMGRIYYVDHFTRTTTWQRPT   37 (39)
+T ss_dssp             CCCSSCEEEECTTSCEEEECSSSCCEECCCCC
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCeEEEeCCC
+Confidence            35567777665555556666665666666543
+
+
+No 97
+>6AHD_X Pre-mRNA-processing-splicing factor 8, Thioredoxin-like protein; Spliceosome, SPLICING; HET: IHP, GTP; 3.8A {Homo sapiens}
+Probab=97.77  E-value=8.9e-08  Score=67.15  Aligned_cols=32  Identities=19%  Similarity=0.504  Sum_probs=26.8  Template_Neff=6.800
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ++.+|....+..|..||+++.+..++|..|..
+T Consensus       165 ~~~~W~e~~~~~Gr~YY~N~~T~eStWe~P~~  196 (376)
+T 6AHD_X          165 VKTVWVEGLSEDGFTYYYNTETGESRWEKPDD  196 (376)
+T ss_pred             CCCCeEEEECCCCCEEEEECCCCeEEEeCCcc
+Confidence            45678887777889999999999999998765
+
+
+No 98
+>3TC5_A Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1; PIN1 mutant (R14A), Oncogenic transformation; HET: 3T5, P6G; 1.4A {Homo sapiens}
+Probab=97.74  E-value=1.1e-07  Score=54.83  Aligned_cols=34  Identities=35%  Similarity=0.792  Sum_probs=23.3  Template_Neff=10.300
+
+Q 5AHT_A            6 GFLPKGWEVRHAP-NGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         6 ~pLP~GWE~r~~~-~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ..+|.+|+..++. .+..+|.++....+.|..|..
+T Consensus         8 ~~~p~~w~~~~~~~~g~~~~~~~~~~~~~w~~p~~   42 (166)
+T 3TC5_A            8 EKLPPGWEKAMSRSSGRVYYFNHITNASQWERPSG   42 (166)
+T ss_dssp             --CCTTEEEEECTTTCCEEEEETTTCCEESSCC--
+T ss_pred             cCCCCCcEEEEeCCCCcEEEEECCCCeEEeeCCCC
+Confidence            4567789887765 677888888777888876643
+
+
+No 99
+>2DK1_A WW domain-binding protein 4; WW domain, WW domain-binding protein; NMR {Homo sapiens} SCOP: b.72.1.1
+Probab=97.70  E-value=1.5e-07  Score=46.56  Aligned_cols=32  Identities=19%  Similarity=0.448  Sum_probs=22.9  Template_Neff=9.300
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .+..|....+..+..||++..+..+.|..|..
+T Consensus         5 ~~~~W~~~~~~~g~~yy~n~~t~~s~w~~P~~   36 (50)
+T 2DK1_A            5 SSGRWVEGITSEGYHYYYDLISGASQWEKPEG   36 (50)
+T ss_dssp             CSCCEEECCCSTTCCCEEESSSCCEESSCCTT
+T ss_pred             CCCCcEEEECCCCCEEEEECCCCEEEEECCCc
+Confidence            34567766665677788888888888877654
+
+
+No 100
+>2N8S_A Nedd4 WW1; rNedd4 WW1, LIGASE; NMR {Rattus norvegicus}
+Probab=97.69  E-value=1.5e-07  Score=38.54  Aligned_cols=31  Identities=42%  Similarity=1.072  Sum_probs=19.6  Template_Neff=12.900
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ++.+|....+..+..++.+.......|..|.
+T Consensus         6 ~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p~   36 (39)
+T 2N8S_A            6 LPPGWEERQDVLGRTYYVNHESRTTQWKRPS   36 (39)
+T ss_dssp             CCTTEEEEECTTCCEEEEETTTCCEESSCCC
+T ss_pred             CCCCcEEEECCCCCEEEEECCCCeEEEeCCC
+Confidence            5566776665555566666666667776554
+
+
+No 101
+>2MDI_A Histone-lysine N-methyltransferase SETD2 (E.C.2.1.1.43); WW domain, HYPB, TRANSFERASE; NMR {Homo sapiens}
+Probab=97.68  E-value=1.7e-07  Score=43.98  Aligned_cols=33  Identities=27%  Similarity=0.783  Sum_probs=22.6  Template_Neff=11.300
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .++.+|+..++..+..++++.....++|+.+..
+T Consensus        16 ~~~~~w~~~~~~~~~~~~~~~~~~~s~w~~p~~   48 (56)
+T 2MDI_A           16 VLPPNWKTARDPEGKIYYYHVITRQTQWDPPTW   48 (56)
+T ss_dssp             CCCTTCEEEECTTSCEEEEETTTTEEESSSCCS
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCcEEeeCCCC
+Confidence            355678776665566677777777788877654
+
+
+No 102
+>6JK1_B Dendrin,Transcriptional coactivator YAP1; WW tandem, PY tandem, YAP1; 2.0A {Mus musculus}
+Probab=97.65  E-value=2e-07  Score=50.69  Aligned_cols=31  Identities=48%  Similarity=1.145  Sum_probs=20.0  Template_Neff=10.500
+
+Q 5AHT_A            7 FLPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         7 pLP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      .++.+|+...+..+..++++...+..+|..+
+T Consensus        26 ~~~~~w~~~~~~~g~~~~~~~~~~~~~~~~p   56 (116)
+T 6JK1_B           26 PLPAGWEMAKTSSGQRYFLNHNDQTTTWQDP   56 (116)
+T ss_dssp             CCCTTEEEEECTTCCEEEEETTTTEEESSCC
+T ss_pred             CCCCCcEEEECCCCCEEEEECCCCceEecCc
+Confidence            3666787766666677777666656666543
+
+
+No 103
+>2MWF_A Transcription elongation regulator 1; melting, TRANSCRIPTION; NMR {Homo sapiens}
+Probab=97.64  E-value=2.2e-07  Score=37.17  Aligned_cols=27  Identities=30%  Similarity=0.924  Sum_probs=15.3  Template_Neff=12.600
+
+Q 5AHT_A           12 WEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus        12 WE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      |....+..+..++.+.....+.|..|.
+T Consensus         3 w~~~~~~~~~~~~~~~~~~~~~~~~p~   29 (32)
+T 2MWF_A            3 WTERKTADGKTYYYNNRTLESTWEKPQ   29 (32)
+T ss_pred             cEEEECCCCCEEEEECCCCEEEEeCCC
+Confidence            444444445566666666666776553
+
+
+No 104
+>1TK7_A CG4244-PB; WW domain, Notch, SIGNALING PROTEIN; NMR {Drosophila melanogaster} SCOP: b.72.1.1
+Probab=97.52  E-value=4.6e-07  Score=44.39  Aligned_cols=32  Identities=47%  Similarity=1.106  Sum_probs=19.0  Template_Neff=12.100
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      ..++.+|+...+..+..++.+.......|..+
+T Consensus        11 ~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~p   42 (88)
+T 1TK7_A           11 GPLPDGWEKKIQSDNRVYFVNHKNRTTQWEDP   42 (88)
+T ss_dssp             SSSSSSCCEEEETTTEEEEEETTTTEEEEESC
+T ss_pred             CCCCCCcEEEEcCCCCEEEEECCCCeEEEeCC
+Confidence            44667787766655666666555555555443
+
+
+No 105
+>1ZR7_A huntingtin-interacting protein HYPA/FBP11; beta sheet, Structural Genomics, NPPSFA; NMR {Homo sapiens} SCOP: b.72.1.1
+Probab=97.52  E-value=4.8e-07  Score=35.33  Aligned_cols=26  Identities=38%  Similarity=1.071  Sum_probs=13.3  Template_Neff=12.800
+
+Q 5AHT_A           12 WEVRHAPNGRPFFIDHNTKTTTWEDP   37 (43)
+Q Consensus        12 WE~r~~~~Gr~yfvdH~trtTtwedP   37 (43)
+                      |....+..+..++.+.......|..|
+T Consensus         3 w~~~~~~~~~~~~~~~~~~~~~~~~p   28 (30)
+T 1ZR7_A            3 WTEHKSPDGRTYYYNTETKQSTWEKP   28 (30)
+T ss_dssp             EEEEEETTTEEEEEETTTTEEESSCT
+T ss_pred             cEEEECCCCCEEEEECCCCEEEEECC
+Confidence            44444334555666555555555543
+
+
+No 106
+>1EG4_A STRUCTURE OF A DYSTROPHIN WW; EF-hand like domain, WW domain; 2.0A {Homo sapiens} SCOP: a.39.1.7, b.72.1.1
+Probab=97.30  E-value=1.7e-06  Score=52.79  Aligned_cols=33  Identities=36%  Similarity=0.852  Sum_probs=23.2  Template_Neff=10.500
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ..++.+|+..++..+..++.++......|.+|.
+T Consensus        10 ~~L~~~w~~r~~~~~~~w~~~~~~~~~~~~~p~   42 (261)
+T 1EG4_A           10 TSVQGPWERAISPNKVPYYINHETQTTCWDHPK   42 (261)
+T ss_pred             ccCCCCceeeecCCCCeeeeecCCCCccccCch
+Confidence            457888998887777777776666666665543
+
+
+No 107
+>1EG3_A STRUCTURE OF A DYSTROPHIN WW; EF-hand like domain, WW domain; 2.0A {Homo sapiens} SCOP: b.72.1.1, a.39.1.7
+Probab=97.23  E-value=2.5e-06  Score=52.24  Aligned_cols=33  Identities=36%  Similarity=0.852  Sum_probs=23.3  Template_Neff=10.400
+
+Q 5AHT_A            6 GFLPKGWEVRHAPNGRPFFIDHNTKTTTWEDPR   38 (43)
+Q Consensus         6 ~pLP~GWE~r~~~~Gr~yfvdH~trtTtwedPr   38 (43)
+                      ..++.+|+...+..+..++.+.......|.+|.
+T Consensus        10 ~~l~~~w~~r~~~~~~pw~~~~~~~~~~~~~p~   42 (261)
+T 1EG3_A           10 TSVQGPWERAISPNKVPYYINHETQTTCWDHPK   42 (261)
+T ss_dssp             TTCCTTEEEEECTTSCEEEEETTTTEEESSCHH
+T ss_pred             cCCCCCceEeeCCCCCeeeeecCCCCcccCCch
+Confidence            457888998887777777776666666666543
+
+
+No 108
+>6N7P_J Pre-mRNA-splicing factor 8, Pre-mRNA-splicing factor; pre-mRNA splicing, spliceosome, E complex; 3.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=97.16  E-value=3.6e-06  Score=59.19  Aligned_cols=33  Identities=21%  Similarity=0.722  Sum_probs=25.4  Template_Neff=9.000
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      .+.+|....+..|..||++..++.++|..|...
+T Consensus        41 ~~~~W~~~~~~~g~~yy~n~~t~~s~W~~P~~~   73 (583)
+T 6N7P_J           41 RENGWKAAKTADGKVYYYNPTTRETSWTIPAFE   73 (583)
+T ss_pred             CCCCCeEEECCCCCEEEEeCCCCeEEEeChHHH
+Confidence            345787766667888999999999999877643
+
+
+No 109
+>4QIB_A Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1; cis-trans isomerization, Oxidation of active; HET: SO4, PE4; 1.865A {Homo sapiens}
+Probab=97.15  E-value=3.8e-06  Score=48.57  Aligned_cols=33  Identities=36%  Similarity=0.847  Sum_probs=19.9  Template_Neff=10.100
+
+Q 5AHT_A            7 FLPKGWEVRHA-PNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         7 pLP~GWE~r~~-~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .+|.+|+...+ ..+..+++++....+.|..+..
+T Consensus         2 ~~p~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~   35 (159)
+T 4QIB_A            2 ALPPGWEKAMSRSSGRVYYFNHITNASQWERPSG   35 (159)
+T ss_dssp             -CCTTEEEEECTTTCCEEEEETTTCCEESSCCC-
+T ss_pred             CCCCCcEEEeeCCCCcEEEEECCCceEEeECCCC
+Confidence            36677877663 3556666666666666666543
+
+
+No 110
+>6NZO_S ?; Set2, nucleosome, chromatin, KMT, GENE;{Xenopus laevis}
+Probab=96.98  E-value=8.8e-06  Score=63.98  Aligned_cols=34  Identities=32%  Similarity=0.692  Sum_probs=0.0  Template_Neff=5.600
+
+Q 5AHT_A            6 GFLPKGWEVRHAP-NGRPFFIDHNTKTTTWEDPRLK   40 (43)
+Q Consensus         6 ~pLP~GWE~r~~~-~Gr~yfvdH~trtTtwedPr~~   40 (43)
+                      ..+|.+|....+. .|..||++.. ..++|..|...
+T Consensus       562 ~~LP~GW~~a~D~~~G~~YYYn~~-g~TqW~rPt~p  596 (939)
+T 6NZO_S          562 TNLPEGWFVTVDKKTGKYYFYDVN-GKVQWQRPTAP  596 (939)
+T ss_dssp             ------------------------------------
+T ss_pred             CCCCCCceEEEeCCCCcEEEEcCC-CeEEeCCCCCC
+Confidence            3588999998884 7888888776 77889876543
+
+
+No 111
+>6N7P_J Pre-mRNA-splicing factor 8, Pre-mRNA-splicing factor; pre-mRNA splicing, spliceosome, E complex; 3.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=96.72  E-value=2.8e-05  Score=54.82  Aligned_cols=30  Identities=30%  Similarity=0.697  Sum_probs=21.6  Template_Neff=9.000
+
+Q 5AHT_A           10 KGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus        10 ~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      .+|....+..|..||++..++.++|..|..
+T Consensus         2 ~~W~~~~~~~G~~yy~n~~t~~stw~~P~~   31 (583)
+T 6N7P_J            2 SIWKEAKDASGRIYYYNTLTKKSTWEKPKE   31 (583)
+T ss_pred             CCcEEEECCCCCEEEEECCCCeEEEeCCCc
+Confidence            356655556677888888888888877653
+
+
+No 112
+>2DK7_A Transcription elongation regulator 1; structural genomics, WW domain, Transcription; NMR {Homo sapiens}
+Probab=96.59  E-value=4.8e-05  Score=42.64  Aligned_cols=30  Identities=27%  Similarity=0.592  Sum_probs=23.2  Template_Neff=7.200
+
+Q 5AHT_A           10 KGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus        10 ~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ..|....+..|..||++..++.+.|+.|..
+T Consensus        20 ~~W~~~~t~~G~~yYyN~~T~eS~W~~P~e   49 (73)
+T 2DK7_A           20 TPWCVVWTGDERVFFYNPTTRLSMWDRPDD   49 (73)
+T ss_dssp             SSCEEEEESSSCEEEEETTTTEECSSCCTT
+T ss_pred             CCcEEEECCCCCEEEEeCCCCeeeeeCCHH
+Confidence            357766666788899999888999987643
+
+
+No 113
+>6AHD_X Pre-mRNA-processing-splicing factor 8, Thioredoxin-like protein; Spliceosome, SPLICING; HET: IHP, GTP; 3.8A {Homo sapiens}
+Probab=96.57  E-value=5.2e-05  Score=53.60  Aligned_cols=32  Identities=19%  Similarity=0.438  Sum_probs=23.8  Template_Neff=6.800
+
+Q 5AHT_A            8 LPKGWEVRHAPNGRPFFIDHNTKTTTWEDPRL   39 (43)
+Q Consensus         8 LP~GWE~r~~~~Gr~yfvdH~trtTtwedPr~   39 (43)
+                      ++..|....+..+..||++..+..++|..|..
+T Consensus       124 l~~~W~e~~d~~G~~YY~N~~T~eSsWekP~~  155 (376)
+T 6AHD_X          124 SKGRWVEGITSEGYHYYYDLISGASQWEKPEG  155 (376)
+T ss_pred             CcCccEEEEcCCCCEEEEECCCCceEeeCCCc
+Confidence            45567776666788888888888888877653
+
+
+No 114
+>6IKO_A Growth arrest-specific protein 7; phagocytosis, F-BAR domain, LIPID BINDING; 3.756A {Mus musculus}
+Probab=94.18  E-value=0.0094  Score=40.03  Aligned_cols=28  Identities=39%  Similarity=1.007  Sum_probs=0.0  Template_Neff=10.400
+
+Q 5AHT_A            9 PKGWEVRHAPNGRPFFIDHNTKTTTWED   36 (43)
+Q Consensus         9 P~GWE~r~~~~Gr~yfvdH~trtTtwed   36 (43)
+                      +.+|.......+..||.+..+....|..
+T Consensus       100 ~~~~~~~~~~~g~~~y~~~~t~~~~~~~  127 (496)
+T 6IKO_A          100 PPGWHSYLSPQGRRYYVNTTTNETTWER  127 (496)
+T ss_dssp             ----------------------------
+T ss_pred             CCCeEEEECCCCCeEEEeCCCCceeecC
+Confidence            3445443344455566655554444443
+
+
+No 115
+>1YW5_A peptidyl prolyl cis/trans isomerase; WW-domain, PPIase domain, ordered linker; 1.6A {Candida albicans}
+Probab=89.39  E-value=0.17  Score=31.47  Aligned_cols=25  Identities=24%  Similarity=0.687  Sum_probs=14.3  Template_Neff=8.600
+
+Q 5AHT_A            6 GFLPKGWEVRHAP-NGRPFFIDHNTK   30 (43)
+Q Consensus         6 ~pLP~GWE~r~~~-~Gr~yfvdH~tr   30 (43)
+                      ..+|.+|..+... .+..||.+....
+T Consensus         6 ~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (177)
+T 1YW5_A            6 TGLPPNWTIRVSRSHNKEYFLNQSTN   31 (177)
+T ss_dssp             CCCCTTEEEEECSSTTCEEEEETTTC
+T ss_pred             CCCCCCeEEEEcCCCCeEEEEECCCC
+Confidence            3466677665554 566666655443
+
+
+No 116
+>1IG4_A Methyl-CpG Binding Protein/DNA Complex; PROTEIN-DNA COMPLEX, ALPHA-BETA, DOUBLE HELIX; NMR {Homo sapiens} SCOP: d.10.1.3
+Probab=73.69  E-value=2.3  Score=23.79  Aligned_cols=9  Identities=44%  Similarity=0.896  Sum_probs=5.3  Template_Neff=7.500
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      .++.+|...
+T Consensus        10 ~Lp~GW~re   18 (75)
+T 1IG4_A           10 ALGPGWKRR   18 (75)
+T ss_dssp             TTCTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            456677643
+
+
+No 117
+>2MOE_A Methyl-CpG-binding domain protein 4 (E.C.3.2.2.-)/DNA; PROTEIN/DNA, Methylated DNA, Hydrolase-DNA complex; NMR {Homo sapiens}
+Probab=69.28  E-value=3.5  Score=22.66  Aligned_cols=8  Identities=50%  Similarity=1.091  Sum_probs=5.1  Template_Neff=7.800
+
+Q 5AHT_A            7 FLPKGWEV   14 (43)
+Q Consensus         7 pLP~GWE~   14 (43)
+                      .+|.+|..
+T Consensus         8 ~lp~GW~r   15 (71)
+T 2MOE_A            8 SVPCGWER   15 (71)
+T ss_dssp             CSCTTCEE
+T ss_pred             CCCCCeEE
+Confidence            46667764
+
+
+No 118
+>6ACV_A Methyl-CpG-binding domain-containing protein 11; bind methyl-CG and TG sites; NMR {Arabidopsis thaliana}
+Probab=63.44  E-value=5.5  Score=24.83  Aligned_cols=10  Identities=20%  Similarity=0.484  Sum_probs=6.1  Template_Neff=4.800
+
+Q 5AHT_A            7 FLPKGWEVRH   16 (43)
+Q Consensus         7 pLP~GWE~r~   16 (43)
+                      .+|.+|....
+T Consensus        34 ~lP~GWkR~v   43 (95)
+T 6ACV_A           34 PAPSSWKKLF   43 (95)
+T ss_dssp             CCCTTSEECE
+T ss_pred             CCCCCcEEEE
+Confidence            4677776543
+
+
+No 119
+>5WMM_B NRPS, MbtH homologue; Nonribosomal peptide, Thiocoraline, Depsipeptide, Thiolation; HET: B6G, SAH; 2.9A {Micromonospora sp. ML1}
+Probab=61.56  E-value=6.3  Score=24.33  Aligned_cols=7  Identities=43%  Similarity=1.626  Sum_probs=3.5  Template_Neff=4.600
+
+Q 5AHT_A            8 LPKGWEV   14 (43)
+Q Consensus         8 LP~GWE~   14 (43)
+                      .|.+|..
+T Consensus        48 vPaGW~~   54 (87)
+T 5WMM_B           48 VPDGWRI   54 (87)
+T ss_dssp             CCTTCEE
+T ss_pred             CCCCceE
+Confidence            4555544
+
+
+No 120
+>2LPD_A Uncharacterized protein; infectious disease, melioidosis, Seattle Structural; NMR {Burkholderia pseudomallei}
+Probab=59.56  E-value=7.2  Score=24.59  Aligned_cols=8  Identities=63%  Similarity=1.365  Sum_probs=4.1  Template_Neff=4.200
+
+Q 5AHT_A            7 FLPKGWEV   14 (43)
+Q Consensus         7 pLP~GWE~   14 (43)
+                      ..|.+|..
+T Consensus        45 ~vP~GW~~   52 (95)
+T 2LPD_A           45 SLPAGWET   52 (95)
+T ss_dssp             CCCTTCEE
+T ss_pred             cCCCCcee
+Confidence            35555554
+
+
+No 121
+>5AGQ_A BROMODOMAIN ADJACENT TO ZINC FINGER; TRANSCRIPTION, TAM DOMAIN, TIP5/BAZ2A, PROTEIN; NMR {HOMO SAPIENS}
+Probab=59.19  E-value=7.4  Score=23.97  Aligned_cols=9  Identities=33%  Similarity=0.748  Sum_probs=5.2  Template_Neff=6.600
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      +++.+|...
+T Consensus        17 Pl~~GW~Re   25 (113)
+T 5AGQ_A           17 PLQHGWRRE   25 (113)
+T ss_dssp             HHHHTCEEE
+T ss_pred             CCCCCEEEE
+Confidence            455677643
+
+
+No 122
+>2MYY_A Conserved hypothetical MbtH-like protein; infectious diseases, tuberculosis, siderophore assembly; NMR {Mycobacterium marinum M}
+Probab=56.63  E-value=8.8  Score=23.21  Aligned_cols=7  Identities=57%  Similarity=1.597  Sum_probs=3.2  Template_Neff=5.000
+
+Q 5AHT_A            8 LPKGWEV   14 (43)
+Q Consensus         8 LP~GWE~   14 (43)
+                      .|.+|..
+T Consensus        39 vP~GW~~   45 (80)
+T 2MYY_A           39 VPAGWRV   45 (80)
+T ss_dssp             CCTTCEE
+T ss_pred             CCCCcEE
+Confidence            4445543
+
+
+No 123
+>6EA3_A MbtH-like protein, amino acid activating; siderophore biosynthesis, serine activating adenylation; HET: SRP; 1.65A {Thermobifida fusca (strain YX)}
+Probab=56.02  E-value=9.1  Score=23.23  Aligned_cols=8  Identities=38%  Similarity=1.174  Sum_probs=4.1  Template_Neff=4.900
+
+Q 5AHT_A            7 FLPKGWEV   14 (43)
+Q Consensus         7 pLP~GWE~   14 (43)
+                      ..|.+|..
+T Consensus        37 ~vP~GW~~   44 (81)
+T 6EA3_A           37 EVPQGWRT   44 (81)
+T ss_dssp             CCCTTEEE
+T ss_pred             cCCCCceE
+Confidence            34555554
+
+
+No 124
+>2MB7_A Methyl-CpG-binding domain protein 3; MBD3, DNA methylation, NuRD, chromatin; NMR {Homo sapiens}
+Probab=54.45  E-value=10  Score=21.04  Aligned_cols=9  Identities=56%  Similarity=1.243  Sum_probs=5.3  Template_Neff=7.600
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      .+|.+|...
+T Consensus        12 ~Lp~GW~r~   20 (72)
+T 2MB7_A           12 ALPQGWERE   20 (72)
+T ss_dssp             TSCTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            356677653
+
+
+No 125
+>5U89_B Amino acid adenylation domain protein; nonribosomal peptide synthetase, MbtH-like protein; HET: MJ8; 3.075A {Geobacillus sp.}
+Probab=53.43  E-value=11  Score=23.16  Aligned_cols=8  Identities=38%  Similarity=1.344  Sum_probs=4.2  Template_Neff=4.600
+
+Q 5AHT_A            7 FLPKGWEV   14 (43)
+Q Consensus         7 pLP~GWE~   14 (43)
+                      ..|.+|..
+T Consensus        34 ~vP~GW~~   41 (83)
+T 5U89_B           34 AIPPGWNI   41 (83)
+T ss_dssp             CCCTTCEE
+T ss_pred             CCCCCcee
+Confidence            35556654
+
+
+No 126
+>5JA1_B Enterobactin synthase component F (E.C.6.3.2.14); NONRIBOSOMAL PEPTIDE SYNTHETASE, NRPS, CONDENSATION; HET: 75C; 3.0A {Escherichia coli (strain K12)}
+Probab=49.46  E-value=14  Score=22.10  Aligned_cols=7  Identities=57%  Similarity=1.797  Sum_probs=3.5  Template_Neff=5.000
+
+Q 5AHT_A            8 LPKGWEV   14 (43)
+Q Consensus         8 LP~GWE~   14 (43)
+                      .|.+|..
+T Consensus        35 vP~GW~~   41 (74)
+T 5JA1_B           35 LPAGWDI   41 (74)
+T ss_dssp             CCTTCEE
+T ss_pred             CCCCcee
+Confidence            4555543
+
+
+No 127
+>6D1T_A Methyl-CpG-binding domain protein 1/DNA Complex; mbd, dna-methylation, Structural Genomics, Structural; HET: UNX, 5CM; 2.25A {Homo sapiens}
+Probab=46.07  E-value=17  Score=20.70  Aligned_cols=9  Identities=44%  Similarity=0.896  Sum_probs=5.3  Template_Neff=7.300
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      .++.+|...
+T Consensus        12 ~Lp~GW~re   20 (79)
+T 6D1T_A           12 ALGPGWKRR   20 (79)
+T ss_dssp             TTCTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            456677653
+
+
+No 128
+>6CCG_A Methyl-CpG-binding domain protein 3/DNA Complex; Structural Genomics Consortium, SGC, TRANSCRIPTION; HET: 5CM, UNX; 1.9A {Homo sapiens}
+Probab=46.04  E-value=17  Score=20.28  Aligned_cols=9  Identities=56%  Similarity=1.243  Sum_probs=5.1  Template_Neff=7.500
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      .+|.+|...
+T Consensus        12 ~Lp~GW~Re   20 (73)
+T 6CCG_A           12 ALPQGWERE   20 (73)
+T ss_pred             CCCCCeEEE
+Confidence            356677643
+
+
+No 129
+>3VXV_A Methyl-CpG-binding domain protein 4 (E.C.3.2.2.-)/DNA; methyl CpG binding domain, protein-DNA; HET: ACT, EDO; 2.0A {Mus musculus}
+Probab=45.93  E-value=17  Score=19.66  Aligned_cols=9  Identities=44%  Similarity=0.859  Sum_probs=5.1  Template_Neff=8.100
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      +++.+|...
+T Consensus         5 ~l~~GW~r~   13 (69)
+T 3VXV_A            5 PVPCGWERV   13 (69)
+T ss_dssp             CSCTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            456667643
+
+
+No 130
+>3VXX_A Methyl-CpG-binding domain protein 4 (E.C.3.2.2.-); methyl CpG binding domain, protein-DNA; HET: ACT, EDO; 2.204A {Mus musculus}
+Probab=45.93  E-value=17  Score=19.66  Aligned_cols=9  Identities=44%  Similarity=0.859  Sum_probs=5.1  Template_Neff=8.100
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      +++.+|...
+T Consensus         5 ~l~~GW~r~   13 (69)
+T 3VXX_A            5 PVPCGWERV   13 (69)
+T ss_dssp             CCCTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            456667643
+
+
+No 131
+>2PST_X Hypothetical protein PA2412; Pyoverdine synthesis, Non-ribosomal peptide synthesis; 1.8A {Pseudomonas aeruginosa PAO1} SCOP: d.100.2.1
+Probab=43.85  E-value=19  Score=21.40  Aligned_cols=8  Identities=38%  Similarity=1.219  Sum_probs=4.3  Template_Neff=5.200
+
+Q 5AHT_A            7 FLPKGWEV   14 (43)
+Q Consensus         7 pLP~GWE~   14 (43)
+                      ..|.+|..
+T Consensus        32 ~vP~GW~~   39 (74)
+T 2PST_X           32 EIPQGWRA   39 (74)
+T ss_dssp             CCCTTEEE
+T ss_pred             cCCCCccc
+Confidence            35556654
+
+
+No 132
+>6OGK_A Methyl-CpG-binding protein 2/DNA Complex; MBD, Structural Genomics, Structural Genomics; HET: UNX, 5CM; 1.65A {Homo sapiens}
+Probab=37.02  E-value=29  Score=21.03  Aligned_cols=9  Identities=44%  Similarity=1.184  Sum_probs=5.7  Template_Neff=6.500
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      .++.+|...
+T Consensus        23 ~Lp~GW~Re   31 (99)
+T 6OGK_A           23 TLPEGWTRK   31 (99)
+T ss_dssp             TSCTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            466778653
+
+
+No 133
+>2YRV_A AT-rich interactive domain-containing protein 4A; ARID domain-containing protein 4A, Retinoblastoma-binding; NMR {Homo sapiens}
+Probab=36.42  E-value=30  Score=22.45  Aligned_cols=9  Identities=22%  Similarity=1.003  Sum_probs=5.8  Template_Neff=4.700
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      .+|..|.+.
+T Consensus        97 ~lP~~W~~d  105 (117)
+T 2YRV_A           97 VVPDNWKMD  105 (117)
+T ss_dssp             CCCTTTCCS
+T ss_pred             CCCCCcCcc
+Confidence            467777653
+
+
+No 134
+>6C1T_D Methyl-CpG-binding domain protein 2/DNA Complex; MBD, DNA-binding, Structural Genomics, Structural; HET: UNX, 5CM; 1.84A {Homo sapiens}
+Probab=34.41  E-value=34  Score=19.41  Aligned_cols=9  Identities=44%  Similarity=1.088  Sum_probs=5.3  Template_Neff=7.400
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      .++.+|...
+T Consensus        13 ~lp~GW~Re   21 (79)
+T 6C1T_D           13 ALPPGWKKE   21 (79)
+T ss_dssp             TSSTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            456677653
+
+
+No 135
+>6CNQ_A Methyl-CpG-binding domain protein 2/DNA Complex; dna methylation, dna binding, Structural; HET: 5CM; 2.151A {Homo sapiens}
+Probab=34.41  E-value=34  Score=19.41  Aligned_cols=9  Identities=44%  Similarity=1.088  Sum_probs=5.3  Template_Neff=7.400
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      .++.+|...
+T Consensus        13 ~lp~GW~Re   21 (79)
+T 6CNQ_A           13 ALPPGWKKE   21 (79)
+T ss_dssp             TSSTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            456677653
+
+
+No 136
+>6C1Y_A Methyl-CpG-binding protein 2/DNA Complex; mbd, dna methylation, Structural Genomics; HET: 5CM; 2.3A {Homo sapiens}
+Probab=34.21  E-value=34  Score=19.99  Aligned_cols=8  Identities=50%  Similarity=1.219  Sum_probs=4.8  Template_Neff=6.900
+
+Q 5AHT_A            7 FLPKGWEV   14 (43)
+Q Consensus         7 pLP~GWE~   14 (43)
+                      .++.+|..
+T Consensus        21 ~Lp~GW~r   28 (86)
+T 6C1Y_A           21 TLPEGWTR   28 (86)
+T ss_dssp             TSCTTCEE
+T ss_pred             CCCCCeEE
+Confidence            45667764
+
+
+No 137
+>6CNP_A Methyl-CpG-binding domain protein 2/DNA Complex; Structural Genomics Consortium, SGC, TRANSCRIPTION-DNA; HET: UNX, 5CM; 2.1A {Homo sapiens}
+Probab=33.45  E-value=36  Score=20.57  Aligned_cols=9  Identities=44%  Similarity=1.088  Sum_probs=5.5  Template_Neff=6.400
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      +++.+|...
+T Consensus        30 ~Lp~GW~Re   38 (96)
+T 6CNP_A           30 ALPPGWKKE   38 (96)
+T ss_dssp             TSSTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            456677653
+
+
+No 138
+>1E0A_B G25K GTP-BINDING PROTEIN, PLACENTAL ISOFORM; SIGNALLING PROTEIN, G PROTEIN SIGNALLING; HET: MG, GNP; NMR {HOMO SAPIENS} SCOP: j.65.1.1
+Probab=32.15  E-value=39  Score=16.90  Aligned_cols=6  Identities=33%  Similarity=1.376  Sum_probs=2.5  Template_Neff=8.000
+
+Q 5AHT_A            8 LPKGWE   13 (43)
+Q Consensus         8 LP~GWE   13 (43)
+                      +|..|.
+T Consensus        27 lp~ew~   32 (46)
+T 1E0A_B           27 MPEQWA   32 (46)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+Confidence            344443
+
+
+No 139
+>5BT2_A Methyl-CpG-binding protein 2/DNA Complex; A/T run, MeCP2, hydration spine; HET: 5CM; 2.2A {Homo sapiens}
+Probab=31.03  E-value=42  Score=20.16  Aligned_cols=9  Identities=44%  Similarity=1.184  Sum_probs=5.5  Template_Neff=6.700
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      +++.+|...
+T Consensus        23 ~Lp~GW~Re   31 (97)
+T 5BT2_A           23 TLPEGWTRK   31 (97)
+T ss_dssp             TSCTTCEEE
+T ss_pred             CCCCCeEEE
+Confidence            466677653
+
+
+No 140
+>6E5F_A Lipid binding protein LpqN; Lipid Binding Protein, (6DDTre)Lauryl-6-Trehaloside; HET: L6T; 1.37A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=29.63  E-value=46  Score=21.77  Aligned_cols=9  Identities=22%  Similarity=0.756  Sum_probs=5.7  Template_Neff=8.500
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      +.|.+|+..
+T Consensus        88 ~~P~GW~~~   96 (228)
+T 6E5F_A           88 PVPDDWRLL   96 (228)
+T ss_pred             cCCCCcEeC
+Confidence            456777754
+
+
+No 141
+>1QK9_A METHYL-CPG-BINDING PROTEIN 2; METHYL-CPG-BINDING PROTEIN, SOLUTION STRUCTURE, METHYLATED; NMR {HOMO SAPIENS} SCOP: d.10.1.3
+Probab=28.28  E-value=50  Score=19.60  Aligned_cols=9  Identities=44%  Similarity=1.184  Sum_probs=5.5  Template_Neff=6.800
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      +++.+|...
+T Consensus        23 ~Lp~GW~Re   31 (92)
+T 1QK9_A           23 TLPEGWTRK   31 (92)
+T ss_dssp             CSSSSCEEE
+T ss_pred             CCCCCeEEE
+Confidence            466677653
+
+
+No 142
+>4ART_A STRUCTURAL PROTEIN ORF273; VIRAL PROTEIN, ARCHAEAL VIRUS, EXTREMOPHILES; HET: GOL, SO4; 2.15A {ACIDIANUS TWO-TAILED VIRUS}
+Probab=25.26  E-value=61  Score=23.93  Aligned_cols=6  Identities=50%  Similarity=1.542  Sum_probs=2.6  Template_Neff=1.000
+
+Q 5AHT_A           23 FFIDHN   28 (43)
+Q Consensus        23 yfvdH~   28 (43)
+                      ||++++
+T Consensus       220 yyvdhn  225 (279)
+T 4ART_A          220 YYVDHN  225 (279)
+T ss_dssp             HHTSCC
+T ss_pred             eeccCC
+Confidence            444443
+
+
+No 143
+>4ART_B STRUCTURAL PROTEIN ORF273; VIRAL PROTEIN, ARCHAEAL VIRUS, EXTREMOPHILES; HET: GOL, SO4; 2.15A {ACIDIANUS TWO-TAILED VIRUS}
+Probab=25.26  E-value=61  Score=23.93  Aligned_cols=6  Identities=50%  Similarity=1.542  Sum_probs=2.6  Template_Neff=1.000
+
+Q 5AHT_A           23 FFIDHN   28 (43)
+Q Consensus        23 yfvdH~   28 (43)
+                      ||++++
+T Consensus       220 yyvdhn  225 (279)
+T 4ART_B          220 YYVDHN  225 (279)
+T ss_dssp             HHTSCC
+T ss_pred             eeccCC
+Confidence            444443
+
+
+No 144
+>3ZW1_A BAMBL LECTIN; SUGAR BINDING PROTEIN, FUCOSE BINDING; HET: NAG, GAL, FUC, GLA; 1.6A {BURKHOLDERIA AMBIFARIA}
+Probab=24.80  E-value=64  Score=18.81  Aligned_cols=6  Identities=17%  Similarity=0.401  Sum_probs=2.7  Template_Neff=7.100
+
+Q 5AHT_A           21 RPFFID   26 (43)
+Q Consensus        21 r~yfvd   26 (43)
+                      ++||.+
+T Consensus        15 RvYy~~   20 (87)
+T 3ZW1_A           15 RVYTAN   20 (87)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+Confidence            344444
+
+
+No 145
+>3LYD_B Uncharacterized protein; Jonesia denitrificans, PSI-2, MCSG, GEBA; 1.45A {Jonesia denitrificans}
+Probab=24.20  E-value=66  Score=19.03  Aligned_cols=8  Identities=25%  Similarity=0.866  Sum_probs=4.7  Template_Neff=9.800
+
+Q 5AHT_A            7 FLPKGWEV   14 (43)
+Q Consensus         7 pLP~GWE~   14 (43)
+                      ..|.+|..
+T Consensus        23 ~~P~gW~~   30 (161)
+T 3LYD_B           23 PIPETWQP   30 (161)
+T ss_dssp             ECCTTEEE
+T ss_pred             eCCCCcEe
+Confidence            35667763
+
+
+No 146
+>2ODB_B Protein: Human Cell Division Cycle; small GTPase, CRIB, kinase, protein-protein; HET: GCP, SO4; 2.4A {Homo sapiens}
+Probab=23.60  E-value=69  Score=15.28  Aligned_cols=6  Identities=50%  Similarity=1.437  Sum_probs=2.3  Template_Neff=7.600
+
+Q 5AHT_A            8 LPKGWE   13 (43)
+Q Consensus         8 LP~GWE   13 (43)
+                      +|..|.
+T Consensus        26 lp~~w~   31 (35)
+T 2ODB_B           26 LPPQWQ   31 (35)
+T ss_pred             CCHHHH
+Confidence            333443
+
+
+No 147
+>2GPF_A conserved hypothetical protein PA2412; BETA/ALPHA protein, Structural Genomics, PSI-2; NMR {Pseudomonas aeruginosa} SCOP: d.100.2.1
+Probab=21.54  E-value=81  Score=18.67  Aligned_cols=8  Identities=38%  Similarity=1.219  Sum_probs=4.9  Template_Neff=5.300
+
+Q 5AHT_A            7 FLPKGWEV   14 (43)
+Q Consensus         7 pLP~GWE~   14 (43)
+                      ..|.+|..
+T Consensus        30 ~vP~GW~~   37 (72)
+T 2GPF_A           30 EIPQGWRA   37 (72)
+T ss_dssp             CCCTTEEE
+T ss_pred             cCCCCccc
+Confidence            45667765
+
+
+No 148
+>1UB1_A attachment region binding protein; Chicken methyl-CpG-binding protein 2 (cMeCP2); NMR {Gallus gallus} SCOP: d.10.1.3
+Probab=21.46  E-value=81  Score=20.72  Aligned_cols=9  Identities=44%  Similarity=1.184  Sum_probs=5.5  Template_Neff=5.200
+
+Q 5AHT_A            7 FLPKGWEVR   15 (43)
+Q Consensus         7 pLP~GWE~r   15 (43)
+                      .++.+|...
+T Consensus        37 ~LP~GW~Re   45 (133)
+T 1UB1_A           37 TLPEGWTRK   45 (133)
+T ss_dssp             CBTTBCEEE
+T ss_pred             CCCCCeEEE
+Confidence            466677653
+
+
+No 149
+>1TU1_A hypothetical protein PA0094; structural genomics, hypothetical protein, PA0094; HET: EDO, PEG; 1.95A {Pseudomonas aeruginosa} SCOP: d.107.1.3
+Probab=20.34  E-value=89  Score=17.52  Aligned_cols=7  Identities=29%  Similarity=1.161  Sum_probs=3.9  Template_Neff=10.800
+
+Q 5AHT_A            8 LPKGWEV   14 (43)
+Q Consensus         8 LP~GWE~   14 (43)
+                      .|.+|..
+T Consensus        15 ~P~~W~~   21 (148)
+T 1TU1_A           15 IPDAWQD   21 (148)
+T ss_dssp             EETTSEE
+T ss_pred             CCCcccc
+Confidence            4556653
+
+
