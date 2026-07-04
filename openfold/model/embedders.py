@@ -154,6 +154,34 @@ class InputEmbedder(nn.Module):
 
         return msa_emb, pair_emb
 
+class DMSEmbedder(nn.Module):
+    def __init__(self, c_z, hidden=64, dropout=0.2):
+        super().__init__()
+
+        self.net = nn.Sequential(
+            nn.Linear(1, hidden),
+            nn.GELU(),
+            nn.Dropout(dropout),
+            nn.Linear(hidden, c_z),
+        )
+
+        # initialize as no-op
+        nn.init.zeros_(self.net[-1].weight)
+        nn.init.zeros_(self.net[-1].bias)
+
+    def forward(self, x, mask=None, pair_mask=None):
+
+        x = x.to(self.net[0].weight.dtype)
+
+        z_dms = self.net(x)
+
+        if mask is not None:
+            z_dms = z_dms * mask
+
+        if pair_mask is not None:
+            z_dms = z_dms * pair_mask[..., None]
+
+        return z_dms
 
 class InputEmbedderMultimer(nn.Module):
     """

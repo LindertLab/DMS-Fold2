@@ -29,6 +29,7 @@ from openfold.utils.feats import (
 from openfold.utils.tensor_utils import masked_mean
 from openfold.model.embedders import (
     InputEmbedder,
+    DMSEmbedder,
     InputEmbedderMultimer,
     RecyclingEmbedder,
     TemplateEmbedder,
@@ -102,6 +103,10 @@ class AlphaFold(nn.Module):
 
         self.recycling_embedder = RecyclingEmbedder(
             **self.config["recycling_embedder"],
+        )
+
+        self.dms_embedder = DMSEmbedder(
+            **self.config["dms_embedder"],
         )
 
         if self.template_config.enabled:
@@ -409,7 +414,8 @@ class AlphaFold(nn.Module):
                     inplace_safe=inplace_safe,
                     _mask_trans=self.config._mask_trans,
                 )
-
+        z_dms = self.dms_embedder(feats["dms_values"], pair_mask=pair_mask, mask=feats['dms_mask'])
+        z = add(z, z_dms, inplace=inplace_safe)
         # Run MSA + pair embeddings through the trunk of the network
         # m: [*, S, N, C_m]
         # z: [*, N, N, C_z]

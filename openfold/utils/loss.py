@@ -1743,6 +1743,12 @@ class AlphaFoldLoss(nn.Module):
             ),
         }
 
+        if self.config.dms.enabled:
+            loss_fns["dms"] = lambda: dms_loss(
+                logits=out["dms_pred"],
+                **{**batch, **self.config.dms},
+            )
+
         if self.config.tm.enabled:
             loss_fns["tm"] = lambda: tm_loss(
                 logits=out["tm_logits"],
@@ -1791,3 +1797,21 @@ class AlphaFoldLoss(nn.Module):
         else:
             cum_loss, losses = self.loss(out, batch, _return_breakdown)
             return cum_loss, losses
+
+def dms_loss(
+    logits,
+    dms_values,
+    dms_mask,
+    eps=1e-8,
+    **kwargs,
+):
+
+    target = dms_values.squeeze(-1)
+    mask = dms_mask.squeeze(-1)
+
+    errors = (logits - target) ** 2
+
+    loss = torch.sum(errors * mask)
+    loss = loss / (torch.sum(mask) + eps)
+
+    return loss

@@ -357,6 +357,12 @@ config = mlc.ConfigDict(
                     "bert_mask": [NUM_MSA_SEQ, NUM_RES],
                     "chi_angles_sin_cos": [NUM_RES, None, None],
                     "chi_mask": [NUM_RES, None],
+                    "dms_values": [
+                        NUM_RES, NUM_RES, None,
+                    ],
+                    "dms_mask": [
+                        NUM_RES, NUM_RES, None,
+                    ],
                     "extra_deletion_value": [NUM_EXTRA_SEQ, NUM_RES],
                     "extra_has_deletion": [NUM_EXTRA_SEQ, NUM_RES],
                     "extra_msa": [NUM_EXTRA_SEQ, NUM_RES],
@@ -435,6 +441,8 @@ config = mlc.ConfigDict(
                     "between_segment_residues",
                     "deletion_matrix",
                     "no_recycling_iters",
+                    "dms_values",
+                    "dms_mask"
                 ],
                 "use_templates": templates_enabled,
                 "use_template_torsion_angles": embed_template_torsion_angles,
@@ -558,6 +566,11 @@ config = mlc.ConfigDict(
                 "max_bin": 20.75,
                 "no_bins": 15,
                 "inf": 1e8,
+            },
+            "dms_embedder": {
+                "c_z": c_z,
+                "hidden": 64,
+                "dropout": 0.2,
             },
             "template": {
                 "distogram": {
@@ -707,6 +720,11 @@ config = mlc.ConfigDict(
                     "c_s": c_s,
                     "c_out": 37,
                 },
+                "dms": {
+                    "c_z": c_z,
+                    "hidden": 64,
+                    "enabled": True,
+                },
             },
             # A negative value indicates that no early stopping will occur, i.e.
             # the model will always run `max_recycling_iters` number of recycling
@@ -790,6 +808,10 @@ config = mlc.ConfigDict(
                 "weight": 0.,
                 "eps": eps,
                 "enabled": False,
+            },
+            "dms": {
+                "weight": 0.01,
+                "enabled": True,
             },
             "eps": eps,
         },

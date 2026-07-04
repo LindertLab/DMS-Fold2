@@ -129,6 +129,25 @@ def make_sequence_features(
     )
     return features
 
+def make_dms_features(pdbid, num_res):
+
+    dms_values = torch.load(
+        os.path.join(
+            '/path/to/training/tensors/',
+            pdbid + '.pt'
+        ),
+        map_location="cpu",
+        weights_only=True,
+    )
+
+    # ensure shape [N, N, 1]
+    if dms_values.ndim == 2:
+        dms_values = dms_values.unsqueeze(-1)
+
+    # measured wherever nonzero
+    dms_mask = (dms_values != 0).float()
+
+    return dms_values, dms_mask
 
 def make_mmcif_features(
     mmcif_object: mmcif_parsing.MmcifObject, chain_id: str
@@ -162,6 +181,11 @@ def make_mmcif_features(
     )
 
     mmcif_feats["is_distillation"] = np.array(0., dtype=np.float32)
+
+    dms_values, dms_mask = make_dms_features(description, num_res,)
+
+    mmcif_feats['dms_values'] = dms_values
+    mmcif_feats['dms_mask'] = dms_mask
 
     return mmcif_feats
 

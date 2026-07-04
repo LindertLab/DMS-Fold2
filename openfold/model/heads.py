@@ -45,6 +45,11 @@ class AuxiliaryHeads(nn.Module):
             **config["experimentally_resolved"],
         )
 
+        if config.dms.enabled:
+            self.dms = DMSHead(
+                **config["dms"]
+            )
+
         if config.tm.enabled:
             self.tm = TMScoreHead(
                 **config.tm,
@@ -72,6 +77,10 @@ class AuxiliaryHeads(nn.Module):
         aux_out[
             "experimentally_resolved_logits"
         ] = experimentally_resolved_logits
+
+        if self.config.dms.enabled:
+            dms_pred = self.dms(outputs["pair"])
+            aux_out["dms_pred"] = dms_pred
 
         if self.config.tm.enabled:
             tm_logits = self.tm(outputs["pair"])
@@ -265,3 +274,35 @@ class ExperimentallyResolvedHead(nn.Module):
         # [*, N, C_out]
         logits = self.linear(s)
         return logits
+
+class DMSHead(nn.Module):
+    """
+    Predicts DMS enrichment / epistasis scores
+    from pair representation z.
+    """
+
+    def __init__(self, c_z, hidden=64, **kwargs):
+        super(DMSHead, self).__init__()
+
+        self.c_z = c_z
+        self.hidden = hidden
+
+        self.net = nn.Sequential(
+            Linear(c_z, hidden, init="relu"),
+            nn.ReLU(),
+            Linear(hidden, 1, init="final"),
+        )
+
+    def forward(self, z):
+        """
+        Args:
+            z:
+                [*, N, N, C_z]
+
+        Returns:
+            [*, N, N]
+        """
+
+        out = self.net(z)
+
+        return out.squeeze(-1)
