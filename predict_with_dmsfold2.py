@@ -56,7 +56,7 @@ from openfold.utils.trace_utils import (
 from scripts.precompute_embeddings import EmbeddingGenerator
 from scripts.utils import add_data_args
 from openfold.utils.dmsfold_utils import make_dms_tensor
-from openfold.data.msa_subsampling import subsample_msa_sequentially, get_eff 
+from openfold.utils.msa_subsampling import subsample_msa_sequentially, get_eff 
 
 TRACING_INTERVAL = 50
 
