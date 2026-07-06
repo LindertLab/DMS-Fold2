@@ -1,7 +1,7 @@
 # DMS-Fold2
 
 [![Weights](https://img.shields.io/badge/DMS--Fold2-Weights-green)](https://huggingface.co/LindertLab/DMS-Fold2)
-[![Training Dataset](https://img.shields.io/badge/DMS--Fold2-Training--Dataset-green)](https://huggingface.co/datasets/LindertLab/DMS-Fold2-Training-Dataset)
+[![Training Dataset](https://img.shields.io/badge/DMS--Fold2-Training--Dataset-yellow)](https://huggingface.co/datasets/LindertLab/DMS-Fold2-Training-Dataset)
 [![Benchmark Dataset](https://img.shields.io/badge/DMS--Fold2-Benchmark--Dataset-yellow)](https://huggingface.co/datasets/LindertLab/DMS-Fold2-Benchmark-Dataset)
 
 DMS-Fold2 is an extension of OpenFold that incorporates pairwise epistatic information from deep mutational scanning (DMS) experiments into protein structure prediction. The model integrates enrichment scores derived from single-mutant and double-mutant ΔΔG measurements into the pair representation through a learned embedding and introduces an auxiliary loss for predicting enrichment scores during training.
